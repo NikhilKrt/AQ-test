@@ -121,7 +121,7 @@ p:last-child {
   z-index: 1;
   color: #ffffff;
   text-transform: uppercase;
-  background-color: #0000ff;
+  background-color: #f68632;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   border-radius: 5px;
@@ -167,7 +167,7 @@ p:last-child {
 }
 
 .section-title .sub-title {
-  color: #0000ff;
+  color: #f68632;
   display: block;
   text-transform: uppercase;
   margin-bottom: 8px;
@@ -450,7 +450,7 @@ Navbar Area CSS
 }
 
 .aronix-nav .navbar .navbar-nav .nav-item a:hover, .aronix-nav .navbar .navbar-nav .nav-item a:focus, .aronix-nav .navbar .navbar-nav .nav-item a.active {
-  color: #0000ff;
+  color: #f68632;
 }
 
 .aronix-nav .navbar .navbar-nav .nav-item a i {
@@ -1102,6 +1102,15 @@ Main Banner Area CSS
   padding-top: 190px;
 }
 
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
 .main-banner-content {
   text-align: center;
   max-width: 790px;
@@ -1207,12 +1216,16 @@ Main Banner Area CSS
   height: 950px;
 }
 
+.banner-section .btn-box{
+  margin-top: 30px;
+}
+
 .banner-content {
   margin-top: -20px;
 }
 
 .banner-content .sub-title {
-  color: #0000ff;
+  color: #f68632;
   display: block;
   text-transform: uppercase;
   margin-bottom: 15px;
@@ -1908,8 +1921,8 @@ Featured Services Area CSS
 .single-featured-box .default-btn {
   margin-top: 20px;
   background-color: transparent;
-  color: #0000ff;
-  border: 1px solid #0000ff;
+  color: #f68632;
+  border: 1px solid #f68632;
   font-size: 15px;
   padding-top: 14px;
   padding-bottom: 10px;
@@ -2544,7 +2557,7 @@ Overview Area CSS
 }
 
 .overview-box .overview-content .content .sub-title {
-  color: #0000ff;
+  color: #f68632;
   display: block;
   text-transform: uppercase;
   margin-bottom: 8px;
@@ -2633,7 +2646,7 @@ Overview Area CSS
 .overview-box .overview-content .content .features-list li span i {
   font-size: 12px;
   color: #ffffff;
-  background-color: #0000ff;
+  background-color: #f68632;
   width: 23px;
   height: 23px;
   line-height: 23px;
@@ -2914,7 +2927,7 @@ Projects Area CSS
 }
 
 .projects-slides.owl-theme .owl-dots .owl-dot:hover span, .projects-slides.owl-theme .owl-dots .owl-dot.active span {
-  background-color: #0000ff;
+  background-color: #f68632;
 }
 
 /*================================================
@@ -3366,7 +3379,7 @@ Team Area CSS
 .single-team-box .content span {
   display: block;
   margin-top: 8px;
-  color: #0000ff;
+  color: #f68632;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   font-weight: 500;
@@ -3464,7 +3477,7 @@ Solution Area CSS
   line-height: 90px;
   background-color: #ffffff;
   border-radius: 50%;
-  color: #0000ff;
+  color: #f68632;
   position: relative;
   z-index: 1;
 }
@@ -3634,7 +3647,7 @@ Feedback Area CSS
 
 .single-feedback-item .client-info span {
   display: block;
-  color: #0000ff;
+  color: #f68632;
   margin-top: 3px;
   font-size: 15px;
 }
@@ -3671,7 +3684,7 @@ Feedback Area CSS
 }
 
 .feedback-slides.owl-theme .owl-dots .owl-dot:hover span, .feedback-slides.owl-theme .owl-dots .owl-dot.active span {
-  background-color: #0000ff;
+  background-color: #f68632;
 }
 
 /*================================================
@@ -7019,7 +7032,7 @@ Go Top CSS
   cursor: pointer;
   top: 50%;
   right: 15px;
-  background-color: #0000ff;
+  background-color: #f68632;
   z-index: 4;
   width: 40px;
   text-align: center;
