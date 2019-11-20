@@ -1211,9 +1211,10 @@ Main Banner Area CSS
 .banner-section {
   overflow: hidden;
   position: relative;
-  background-color: #f5f5fc;
+ /* background-color: #f5f5fc;*/
+  background-color: #fff;
   z-index: 1;
-  height: 950px;
+  height: 100vh;
 }
 
 .banner-section .btn-box{
@@ -1224,13 +1225,16 @@ Main Banner Area CSS
   margin-top: -20px;
 }
 
-.banner-content .sub-title {
+.banner-content .sub-title a{
   color: #f68632;
   display: block;
   text-transform: uppercase;
   margin-bottom: 15px;
   font-size: 15px;
   font-weight: 600;
+  transition: .5s;
+  text-decoration: none;
+  display: block;
 }
 
 .banner-content h1 {
@@ -1314,7 +1318,7 @@ Main Banner Area CSS
 .banner-image img:nth-child(1) {
   position: absolute;
   z-index: 1;
-  bottom: -180px;
+  bottom: -110px;
   left: 65px;
   right: 0;
   margin: 0 auto;
@@ -1323,7 +1327,7 @@ Main Banner Area CSS
 .banner-image img:nth-child(2) {
   position: relative;
   left: 35px;
-  top: 150px;
+  top: 90px;
   z-index: -1;
 }
 
