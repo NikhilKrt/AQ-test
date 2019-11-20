@@ -89,7 +89,7 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: #0000ff;
+  color: #f68632;
 }
 
 p {
@@ -1338,6 +1338,12 @@ Main Banner Area CSS
   z-index: -1;
   width: 100%;
   height: auto;
+}
+
+.cloud-shape .cloud{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
 }
 
 .cloud-icon {
@@ -4014,10 +4020,16 @@ Blog Area CSS
   -webkit-transition: 0.5s;
   transition: 0.5s;
   margin-bottom: 8px;
+  /*margin-top: 25px;*/
   line-height: 1.4;
   font-size: 24px;
   font-weight: 700;
 }
+
+.single-blog-post:hover >.post-content h3{
+  margin-top: 25px;
+}
+
 
 .single-blog-post .post-content h3 a {
   display: inline-block;
@@ -6792,6 +6804,14 @@ Footer Area CSS
   background-color: #212529;
 }
 
+.footer-area p{
+  color: #fff;
+}
+
+.footer-area .connect{
+  margin-left: -37px;
+}
+
 .single-footer-widget {
   margin-bottom: 30px;
 }
@@ -6902,9 +6922,7 @@ Footer Area CSS
   list-style-type: none;
   display: -ms-flexbox;
   display: -webkit-box;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+  display: block;
   margin-right: -15px;
   margin-left: -15px;
   margin-bottom: 0;
@@ -6912,10 +6930,6 @@ Footer Area CSS
 }
 
 .single-footer-widget .footer-quick-links li {
-  -ms-flex: 0 0 45%;
-  -webkit-box-flex: 0;
-          flex: 0 0 45%;
-  max-width: 45%;
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 15px;
@@ -6933,11 +6947,7 @@ Footer Area CSS
 .single-footer-widget .footer-instagram-post {
   padding-left: 0;
   list-style-type: none;
-  display: -ms-flexbox;
-  display: -webkit-box;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+  display: block;
   margin-right: -5px;
   margin-left: -5px;
   margin-bottom: 0;
@@ -6945,10 +6955,6 @@ Footer Area CSS
 }
 
 .single-footer-widget .footer-instagram-post li {
-  -ms-flex: 0 0 33.333333%;
-  -webkit-box-flex: 0;
-          flex: 0 0 33.333333%;
-  max-width: 33.333333%;
   padding-left: 5px;
   padding-right: 5px;
   padding-top: 10px;
