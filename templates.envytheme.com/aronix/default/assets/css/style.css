@@ -1,4 +1,4 @@
-/*
+
 @File: aronix Template Styles
 
 * This file contains the styling for the actual template, this
@@ -1325,8 +1325,9 @@ Main Banner Area CSS
 
 .banner-image img:nth-child(1) {
   position: absolute;
+  width: 30%;
   z-index: 1;
-  bottom: -110px;
+  bottom: -105px;
   left: 65px;
   right: 0;
   margin: 0 auto;
@@ -1334,15 +1335,38 @@ Main Banner Area CSS
 
 .banner-image img:nth-child(2) {
   position: relative;
+  width: 30%;
   left: 35px;
   top: 90px;
   z-index: -1;
 }
 
+.banner-image .rocket{
+  /*animation: rock 5s linear infinite;*/
+}
+
+@keyframes rock{
+   0%{
+      margin-bottom: 20px;
+  }
+
+  25%{
+      margin-bottom: 40px;
+  }
+
+  50%{
+      margin-bottom: 60px;
+  }
+
+  100%{
+    margin-bottom: 20px;
+  }
+}
+
 .cloud-shape {
   position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: -12px;
   z-index: -1;
   width: 100%;
   height: auto;
@@ -1354,29 +1378,29 @@ Main Banner Area CSS
   grid-template-rows: auto;
 }
 
-.cloud-shape .cloud .cl.cl1{
+.cloud-shape .cloud .cl{
   
-  animation: cloud1 5s linear infinite;
+  animation: cloud 5s linear infinite;
   animation-delay: 0s;
 }
 
-.cloud-shape .cloud .cl.cl2{
-  animation: cloud2 10s linear infinite;
+/*.cloud-shape .cloud .cl.cl2{
+  animation: cloud 10s linear infinite;
   animation-delay: 2s;
 }
 
 .cloud-shape .cloud .cl.cl3{
-  animation: cloud1 15s linear infinite;
+  animation: cloud 15s linear infinite;
   animation-delay: 4s;
-}
+}*/
 
-.cloud-shape .cloud .cl.cl4{
-  animation: cloud2 20s linear infinite;
+/*.cloud-shape .cloud .cl.cl4{
+  animation: cloud 20s linear infinite;
   animation-delay: 8s;
-}
+}*/
 
 
-@keyframes cloud1{
+/*@keyframes cloud1{
   0%{
       margin-bottom: 50px;
   }
@@ -1392,10 +1416,10 @@ Main Banner Area CSS
   100%{
     margin-bottom: 50px;
   }
-}
+}*/
 
 
-@keyframes cloud2{
+@keyframes cloud{
   0%{
       margin-bottom: 20px;
   }
@@ -7141,4 +7165,4 @@ Go Top CSS
   color: #ffffff;
   background-color: #fa7070;
 }
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map 
