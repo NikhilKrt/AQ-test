@@ -1370,70 +1370,72 @@ Main Banner Area CSS
   z-index: -1;
   width: 100%;
   height: auto;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  align-items: end;
 }
 
 .cloud-shape .cloud{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
+  grid-row: 1;
+  grid-column: 1;
+  align-self: end;
 }
 
 .cloud-shape .cloud .cl{
-  
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+}
+
+.cloud-shape .cloud .cl .bg-blue,.cloud-shape .cloud .cl .bg-cloud{
+  grid-row:1;
+  grid-column:1;
   animation: cloud 5s linear infinite;
-  animation-delay: 0s;
 }
 
-/*.cloud-shape .cloud .cl.cl2{
-  animation: cloud 10s linear infinite;
-  animation-delay: 2s;
+.cloud-shape .cloud .cl .bg-cloud{
+  z-index: 1;
+  animation: cloud2 5s linear infinite;
+  animation-delay: 1s;
 }
-
-.cloud-shape .cloud .cl.cl3{
-  animation: cloud 15s linear infinite;
-  animation-delay: 4s;
-}*/
-
-/*.cloud-shape .cloud .cl.cl4{
-  animation: cloud 20s linear infinite;
-  animation-delay: 8s;
-}*/
-
-
-/*@keyframes cloud1{
-  0%{
-      margin-bottom: 50px;
-  }
-
-  25%{
-      margin-bottom: 15px;
-  }
-
-  50%{
-      margin-bottom: 30px;
-  }
-
-  100%{
-    margin-bottom: 50px;
-  }
-}*/
-
 
 @keyframes cloud{
   0%{
-      margin-bottom: 20px;
+      padding-bottom: 20px;
   }
 
   25%{
-      margin-bottom: 40px;
+      padding-bottom: 40px;
   }
 
   50%{
-      margin-bottom: 60px;
+      padding-bottom: 60px;
   }
 
   100%{
-    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+@keyframes cloud2{
+  0%{
+      padding-bottom: 18px;
+  }
+
+  25%{
+      padding-bottom: 38px;
+  }
+
+  50%{
+      padding-bottom: 58px;
+  }
+
+  100%{
+    padding-bottom: 18px;
   }
 }
 
@@ -3698,7 +3700,7 @@ Feedback Area CSS
   opacity: .40;
   height: 60%;
   z-index: -1;
-  background-image: url(../img/bg_lines.svg);
+  background-image: url(../img/bg-lines.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
