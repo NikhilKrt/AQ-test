@@ -1327,7 +1327,7 @@ Main Banner Area CSS
   position: absolute;
   width: 30%;
   z-index: 1;
-  bottom: -105px;
+  bottom: -170px;
   left: 65px;
   right: 0;
   margin: 0 auto;
@@ -6902,12 +6902,12 @@ Footer Area CSS
   color: #fff;
 }
 
-.footer-area .info{
-  padding-top: 40px;
-}
-
 .footer-area .connect{
   margin-left: -37px;
+}
+
+.footer-area .about{
+  margin-top: -29px;
 }
 
 .single-footer-widget {
