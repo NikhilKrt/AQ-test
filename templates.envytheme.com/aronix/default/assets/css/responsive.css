@@ -1297,10 +1297,10 @@
   .sidebar-modal {
     display: none;
   }
-  .navbar-area.is-sticky {
+  /*.navbar-area.is-sticky {
     padding-top: 20px;
     padding-bottom: 20px;
-  }
+  }*/
   .main-banner {
     padding-top: 150px;
   }
