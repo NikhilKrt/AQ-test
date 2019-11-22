@@ -105,16 +105,25 @@
     margin-top: 60px;
   }
   .banner-image img:nth-child(1) {
-    bottom: 80px;
+    bottom: 0;
     left: -9px;
     width: 100px;
     margin: 0 auto;
     right: 0;
+    position: relative;
   }
   .banner-image img:nth-child(2) {
     left: 0;
     bottom: 0;
+    top: -141px;
   }
+
+  .cloud-shape {
+    position: absolute;
+    left: 0;
+    bottom: 80px;
+  }
+
   .cloud-icon1 {
     top: 60%;
     right: 70%;
@@ -1124,6 +1133,10 @@
     line-height: 40px;
     font-size: 16px;
   }
+
+  .g-partnersbadge{
+    width: 80%;
+  }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -1347,12 +1360,17 @@
     right: 0;
     margin: 0 auto;
     width: 140px;
-    bottom: -15px;
+    bottom: -107px;
   }
   .banner-image img:nth-child(2) {
     left: 0;
     top: 80px;
   }
+
+  .cloud-shape {
+    bottom: -64px;
+  }
+
   .cloud-icon1 {
     top: 60%;
     right: 16.5%;
