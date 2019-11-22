@@ -409,8 +409,8 @@ Navbar Area CSS
 
 .aronix-nav {
   background-color: transparent;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  /*padding-top: 15px;
+  padding-bottom: 15px;*/
   padding-right: 0;
   padding-left: 0;
 }
@@ -1041,16 +1041,16 @@ Navbar Area CSS
 }
 
 @media only screen and (max-width: 991px) {
-  .navbar-area {
+  /*.navbar-area {
     padding-top: 20px;
     padding-bottom: 20px;
-  }
+  }*/
   .navbar-area.is-sticky {
     border-bottom: none;
     -webkit-box-shadow: 0 7px 13px 0 rgba(0, 0, 0, 0.1);
             box-shadow: 0 7px 13px 0 rgba(0, 0, 0, 0.1);
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
   .aronix-responsive-nav {
     display: block;
@@ -3614,7 +3614,7 @@ Solution Area CSS
 }
 
 .solution-video .video-btn:hover, .solution-video .video-btn:focus {
-  background-color: #0000ff;
+  background-color: #f68632;
   color: #ffffff;
 }
 
