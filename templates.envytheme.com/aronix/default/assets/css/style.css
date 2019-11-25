@@ -303,7 +303,7 @@ Preloader Area CSS
   width: 60%;
   height: 100%;
   z-index: -1;
-  background: #838383 url("../img/loader-bg.jpg");
+  background: url("../img/loader-bg.jpg");
   -webkit-transition: .9s;
   transition: .9s;
 }
@@ -413,8 +413,8 @@ Navbar Area CSS
 
 .aronix-nav {
   background-color: transparent;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   padding-right: 0;
   padding-left: 0;
 }
@@ -445,7 +445,7 @@ Navbar Area CSS
 }
 
 .aronix-nav .navbar .navbar-nav .nav-item a {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
   color: #838383;
   text-transform: capitalize;
@@ -1226,11 +1226,11 @@ Main Banner Area CSS
 }
 
 .banner-section .btn-box{
-  margin-top: 30px;
+  padding-top: 25px;
 }
 
 .banner-content {
-  margin-top: -20px;
+  margin-top: 20px;
 }
 
 .banner-content .sub-title a{
@@ -1249,7 +1249,7 @@ Main Banner Area CSS
   line-height: 1.2;
   margin-bottom: 0;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 45px;
 }
 
 .banner-content .bold{
@@ -1331,7 +1331,7 @@ Main Banner Area CSS
   position: absolute;
   width: 30%;
   z-index: 1;
-  bottom: -170px;
+  bottom: -90px;
   left: 65px;
   right: 0;
   margin: 0 auto;
@@ -1341,7 +1341,7 @@ Main Banner Area CSS
   position: relative;
   width: 30%;
   left: 35px;
-  top: 90px;
+  top: 56px;
   z-index: -1;
 }
 
@@ -3720,162 +3720,6 @@ Feedback Area CSS
   background-color: #f68632;
 }
 
-/*================================================
-Pricing Area CSS
-=================================================*/
-.pricing-area {
-  padding-bottom: 70px;
-  position: relative;
-  z-index: 1;
-  overflow: hidden;
-  background-image: url(../img/shape-wave.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.single-pricing-box {
-  margin-bottom: 30px;
-  text-align: center;
-  background-color: #ffffff;
-  -webkit-box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.08);
-          box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.08);
-  padding: 40px 30px 28px 30px;
-  border-radius: 5px;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-
-.single-pricing-box .pricing-header {
-  position: relative;
-  z-index: 1;
-  background-color: #0000ff;
-  margin: -40px -30px 30px -30px;
-  border-radius: 5px 5px 0 0;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 30px;
-  padding-bottom: 25px;
-}
-
-.single-pricing-box .pricing-header h3 {
-  color: #ffffff;
-  font-size: 24px;
-  font-weight: 700;
-  margin-bottom: 0;
-}
-
-.single-pricing-box .price {
-  color: #212529;
-  line-height: 50px;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
-  position: relative;
-  z-index: 1;
-  font-size: 50px;
-  font-weight: 700;
-}
-
-.single-pricing-box .price sub {
-  line-height: 16px;
-  color: #737b9a;
-  margin: 0 -8px 0 -12px;
-  position: relative;
-  top: -4px;
-  display: inline-block;
-  font-weight: 600;
-  font-size: 16px;
-}
-
-.single-pricing-box .price-features-list {
-  text-align: left;
-  padding: 30px 30px;
-  margin: 25px -30px 30px -30px;
-  list-style-type: none;
-  border-bottom: 1px solid #eeeeee;
-  border-top: 1px solid #eeeeee;
-}
-
-.single-pricing-box .price-features-list li {
-  position: relative;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-right: 25px;
-  color: #737b9a;
-  font-weight: 500;
-  font-size: 17px;
-}
-
-.single-pricing-box .price-features-list li i {
-  font-size: 14px;
-  color: #0000ff;
-  position: absolute;
-  right: 0;
-  top: 10px;
-}
-
-.single-pricing-box .price-features-list li i.flaticon-tick {
-  color: #6ac04f;
-}
-
-.single-pricing-box .price-features-list li i.flaticon-close {
-  color: #dd5252;
-  font-size: 13px;
-  top: 12px;
-}
-
-.single-pricing-box .get-started-btn {
-  display: inline-block;
-  color: #0000ff;
-  position: relative;
-  font-weight: 600;
-  font-size: 18px;
-}
-
-.single-pricing-box .get-started-btn::before {
-  width: 0;
-  height: 1px;
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  background-color: #0000ff;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-
-.single-pricing-box .get-started-btn:hover::before {
-  width: 100%;
-}
-
-.single-pricing-box.red .pricing-header {
-  background-color: #fc6765;
-}
-
-.single-pricing-box.red .get-started-btn {
-  color: #fc6765;
-}
-
-.single-pricing-box.red .get-started-btn::before {
-  background-color: #fc6765;
-}
-
-.single-pricing-box.orange .pricing-header {
-  background-color: #ffa143;
-}
-
-.single-pricing-box.orange .get-started-btn {
-  color: #ffa143;
-}
-
-.single-pricing-box.orange .get-started-btn::before {
-  background-color: #ffa143;
-}
-
-.single-pricing-box:hover {
-  -webkit-transform: translateY(-10px);
-          transform: translateY(-10px);
-}
 
 /*================================================
 Partner Area CSS
