@@ -75,8 +75,12 @@ button {
 }
 
 .ptb-100 {
-  padding-top: 195px;
+  padding-top: 100px;
   padding-bottom: 100px;
+}
+
+.contact-area.ptb-100,.partner-area.ptb-100,.about-area.ptb-100{
+  padding-top: 195px;
 }
 
 .why-choose-area{
@@ -143,7 +147,7 @@ p:last-child {
   width: 0;
   height: 0;
   border-radius: 50%;
-  background-color: #fa7070;
+  background-color: #e16e19;
   -webkit-transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
   transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
   -webkit-transform: translate(-50%, -50%);
@@ -299,7 +303,7 @@ Preloader Area CSS
   width: 60%;
   height: 100%;
   z-index: -1;
-  background: #0000ff;
+  background: #838383 url("../img/loader-bg.jpg");
   -webkit-transition: .9s;
   transition: .9s;
 }
@@ -443,7 +447,7 @@ Navbar Area CSS
 .aronix-nav .navbar .navbar-nav .nav-item a {
   font-size: 16px;
   font-weight: 500;
-  color: #5b5b98;
+  color: #838383;
   text-transform: capitalize;
   padding-left: 0;
   padding-right: 0;
@@ -473,7 +477,7 @@ Navbar Area CSS
 }
 
 .aronix-nav .navbar .navbar-nav .nav-item:hover a, .aronix-nav .navbar .navbar-nav .nav-item:focus a, .aronix-nav .navbar .navbar-nav .nav-item.active a {
-  color: #0000ff;
+  color: #f68632;
 }
 
 .aronix-nav .navbar .navbar-nav .nav-item .dropdown-menu {
@@ -492,7 +496,7 @@ Navbar Area CSS
   border-radius: 0;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  border-top: 3px solid #0000ff;
+  border-top: 3px solid #f68632;
   padding-top: 20px;
   padding-left: 25px;
   padding-right: 25px;
@@ -507,12 +511,12 @@ Navbar Area CSS
   text-transform: capitalize;
   padding: 8px 0;
   margin: 0;
-  color: #696997;
+  color: #838383;
   font-size: 16px;
 }
 
 .aronix-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .aronix-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .aronix-nav .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
-  color: #0000ff;
+  color: #f68632;
 }
 
 .aronix-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
@@ -1245,7 +1249,7 @@ Main Banner Area CSS
   line-height: 1.2;
   margin-bottom: 0;
   font-weight: 700;
-  font-size: 35px;
+  font-size: 40px;
 }
 
 .banner-content .bold{
@@ -2038,7 +2042,7 @@ Featured Services Area CSS
 }
 
 .single-featured-box .default-btn span {
-  background: #0000ff;
+  background: #f68632;;
 }
 
 .single-featured-box:hover {
@@ -2055,7 +2059,7 @@ Featured Services Area CSS
 }
 
 .single-featured-box:hover .default-btn {
-  background-color: #0000ff;
+  background-color: #f68632;
   color: #ffffff;
 }
 
@@ -2741,7 +2745,7 @@ Overview Area CSS
   width: 0;
   height: 100%;
   border-radius: 5px;
-  background-color: #0000ff;
+  background-color: #f68632;
   z-index: -1;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -2774,7 +2778,7 @@ Overview Area CSS
 }
 
 .overview-box .overview-content .content .features-list li span:hover i {
-  background-color: #fa7070;
+  background-color: #000000;
 }
 
 .overview-box .overview-image {
@@ -2788,86 +2792,6 @@ Overview Area CSS
 
 .overview-box .overview-image .image {
   text-align: center;
-}
-
-/*================================================
-Fun Facts Area CSS
-=================================================*/
-.fun-facts-area {
-  position: relative;
-  z-index: 1;
-  background: #0000ff;
-}
-
-.fun-facts-area::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  opacity: .40;
-  height: 100%;
-  z-index: -1;
-  background-image: url(../img/bg_lines.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.single-fun-facts {
-  overflow: hidden;
-  text-align: center;
-  position: relative;
-  z-index: 1;
-  padding: 30px;
-  border: 1px dashed rgba(255, 255, 255, 0.4);
-  border-radius: 5px;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-
-.single-fun-facts h3 {
-  position: relative;
-  color: #ffffff;
-  margin-bottom: 0;
-  font-size: 50px;
-  font-weight: 700;
-}
-
-.single-fun-facts h3 .sign-icon {
-  display: inline-block;
-  font-size: 18px;
-  margin-left: 2px;
-}
-
-.single-fun-facts p {
-  line-height: initial;
-  margin-top: 5px;
-  color: #ffffff;
-  font-size: 17px;
-  font-weight: 600;
-}
-
-.single-fun-facts .back-text {
-  position: absolute;
-  left: 0;
-  color: #ffffff;
-  right: 0;
-  top: -5px;
-  z-index: -1;
-  opacity: .13;
-  line-height: initial;
-  font-size: 150px;
-  font-weight: 700;
-  font-style: italic;
-}
-
-.single-fun-facts:hover {
-  background-color: #0000ff;
-  -webkit-transform: translateY(-10px);
-          transform: translateY(-10px);
-  border-color: #ffffff;
 }
 
 /*================================================
@@ -2919,7 +2843,7 @@ Projects Area CSS
   display: block;
   margin-top: 8px;
   font-size: 16px;
-  color: #737b9a;
+  color: #838383;
   opacity: 0;
   -webkit-transform: translateX(20px);
           transform: translateX(20px);
@@ -2930,7 +2854,7 @@ Projects Area CSS
 }
 
 .single-projects-box .plus-icon a {
-  background-color: #0000ff;
+  background-color: #f68632;;
   width: 85px;
   height: 85px;
   position: absolute;
@@ -2976,7 +2900,7 @@ Projects Area CSS
 }
 
 .single-projects-box .plus-icon a:hover {
-  background-color: #fa7070;
+  background-color: #e16e19;
 }
 
 .single-projects-box:hover .projects-content {
@@ -3456,13 +3380,13 @@ Team Area CSS
 
 .single-team-box .image .social a {
   display: inline-block;
-  color: #0000ff;
+  color: #838383;
   font-size: 18px;
   margin: 0 6px;
 }
 
 .single-team-box .image .social a:hover {
-  color: #fa7070;
+  color: #f68632;
 }
 
 .single-team-box .content {
@@ -3506,7 +3430,8 @@ Team Area CSS
 }
 
 .single-team-box:hover .content {
-  background-color: #0000ff;
+ /* background-color: #f68632;*/
+  background-color: #000;
 }
 
 .single-team-box:hover .content h3 {
@@ -3685,7 +3610,7 @@ Feedback Area CSS
   height: 60%;
   right: 0;
   z-index: -1;
-  background-color: #0000ff;
+  background-color: #f68632;
   margin-left: 50px;
   margin-right: 50px;
 }
@@ -3697,10 +3622,14 @@ Feedback Area CSS
   right: 0;
   bottom: 0;
   left: 0;
-  opacity: .40;
+  /*opacity: .40;*/
+  opacity: .10;
   height: 60%;
   z-index: -1;
-  background-image: url(../img/bg-lines.png);
+  /*background-image: url(../img/bg-lines.png);*/
+  /*background-image: url(../img/test.jpg);*/
+  background-image: url(../img/faces2.jpg);
+ /* background-image: url(../img/notes.jpg);*/
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -4136,7 +4065,7 @@ Blog Area CSS
 }
 
 .single-blog-post .post-content .read-more-btn {
-  color: #0000ff;
+  color: #f68632;
   display: inline-block;
   position: absolute;
   bottom: 15px;
@@ -4158,7 +4087,7 @@ Blog Area CSS
   -webkit-transition: 0.5s;
   transition: 0.5s;
   height: 1px;
-  background: #0000ff;
+  background: #f68632;
 }
 
 .single-blog-post .post-content .read-more-btn i {
@@ -7165,6 +7094,6 @@ Go Top CSS
 
 .go-top:hover, .go-top:focus {
   color: #ffffff;
-  background-color: #fa7070;
+  background-color: #e16e19;
 }
 /*# sourceMappingURL=style.css.map 
