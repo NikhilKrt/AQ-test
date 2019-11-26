@@ -127,6 +127,55 @@
     overflow: hidden;
   }
 
+  .cloud-shape .cloud .cl .bg-blue {
+    animation: cloud 5s linear infinite;
+    padding-bottom: 34px;
+  }
+
+  .cloud-shape .cloud .cl .bg-cloud {
+    padding-bottom: 20px;
+    animation: cloud2 5s linear infinite;
+    animation-delay: 0.5s;
+  }
+
+  @keyframes cloud{
+  0%{
+      padding-bottom: 20px;
+  }
+
+  25%{
+      padding-bottom: 40px;
+  }
+
+  50%{
+      padding-bottom: 60px;
+  }
+
+  100%{
+    padding-bottom: 20px;
+  }
+}
+
+@keyframes cloud2{
+  0%{
+      padding-bottom: 18px;
+  }
+
+  25%{
+      padding-bottom: 38px;
+  }
+
+  50%{
+      padding-bottom: 58px;
+  }
+
+  100%{
+    padding-bottom: 18px;
+  }
+}
+
+
+
   .cloud-icon1 {
     top: 60%;
     right: 70%;
