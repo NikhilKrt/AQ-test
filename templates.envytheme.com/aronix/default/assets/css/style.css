@@ -1230,7 +1230,7 @@ Main Banner Area CSS
 }
 
 .banner-content {
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 .banner-content .sub-title a{
@@ -1331,7 +1331,7 @@ Main Banner Area CSS
   position: absolute;
   width: 30%;
   z-index: 1;
-  bottom: -90px;
+  bottom: -126px;
   left: 65px;
   right: 0;
   margin: 0 auto;
@@ -1379,13 +1379,13 @@ Main Banner Area CSS
   grid-template-columns: 1fr;
   align-items: end;
 }
-
+/*
 @media screen and (max-width: 767px){
   .cloud-shape{
     width: 1014px;
   }
   
-}
+}*/
 
 .cloud-shape .cloud{
   display: grid;
@@ -1406,12 +1406,14 @@ Main Banner Area CSS
   grid-row:1;
   grid-column:1;
   animation: cloud 5s linear infinite;
+  padding-bottom: 65px;
 }
 
 .cloud-shape .cloud .cl .bg-cloud{
   z-index: 1;
   animation: cloud2 5s linear infinite;
   animation-delay: 1s;
+  padding-bottom: 33px;
 }
 
 @keyframes cloud{
@@ -3593,9 +3595,9 @@ Feedback Area CSS
   z-index: 1;
 }
 
-.feedback-area.bg-color {
+/*.feedback-area.bg-color {
   margin-top: -100px;
-}
+}*/
 
 .feedback-area.bg-color .section-title {
   margin-bottom: 30px;
