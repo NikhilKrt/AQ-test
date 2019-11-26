@@ -103,10 +103,19 @@
     width: 100%;
   }
   .banner-image {
-    margin-top: 60px;
+    margin-top: -4px
   }
+
+  .banner-image .rocket .hide{
+    display: block;
+  }
+
+  .banner-image .rocket .show{
+    display: none;
+  }
+
   .banner-image img:nth-child(1) {
-    bottom: 45px;
+    bottom: -87px;
     left: -2px;
     width: 100px;
     margin: 0 auto;
@@ -1412,7 +1421,7 @@
     right: 0;
     margin: 0 auto;
     width: 140px;
-    bottom: 49px;
+    bottom: -89px;
   }
   .banner-image img:nth-child(2) {
     left: 0;
