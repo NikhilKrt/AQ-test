@@ -4739,7 +4739,7 @@ Page Title Area CSS
   margin-bottom: 0;
   position: relative;
   padding-bottom: 10px;
-  font-size: 40px;
+  font-size: 34px;
   font-weight: 700;
 }
 
@@ -6652,7 +6652,7 @@ Contact Area CSS
   background: #f5f5f5;
   border-radius: 50%;
   font-size: 30px;
-  color: #0000ff;
+  color: #f68632;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   margin-bottom: 20px;
@@ -6674,7 +6674,7 @@ Contact Area CSS
 }
 
 .contact-info-box p a:hover {
-  color: #0000ff;
+  color: #f68632;
 }
 
 .contact-info-box:hover {
@@ -6683,7 +6683,7 @@ Contact Area CSS
 }
 
 .contact-info-box:hover .icon {
-  background-color: #0000ff;
+  background-color: #f68632;
   color: #ffffff;
   border-color: #0000ff;
 }
