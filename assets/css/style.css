@@ -109,7 +109,7 @@ a:hover {
 }
 
 p {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 300;
   line-height: 1.8;
   color: #737b9a;
@@ -455,7 +455,7 @@ Navbar Area CSS
 }
 
 .aronix-nav .navbar .navbar-nav .nav-item a {
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 500;
   color: #838383;
   text-transform: capitalize;
@@ -2193,7 +2193,7 @@ About Area CSS
   -webkit-transition: 0.5s;
   transition: 0.5s;
   font-weight: 600;
-  font-size: 15.5px;
+  font-size: 12px;
 }
 
 .about-content .features-list li span::before {
@@ -2204,7 +2204,7 @@ About Area CSS
   width: 0;
   height: 100%;
   border-radius: 5px;
-  background-color: #0000ff;
+  background-color: #f68632;
   z-index: -1;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -2237,7 +2237,7 @@ About Area CSS
 }
 
 .about-content .features-list li span:hover i {
-  background-color: #fa7070;
+  background-color: #000000;
 }
 
 .about-inner-area {
@@ -2301,7 +2301,7 @@ About Area CSS
 }
 
 .about-text .features-list li:hover i {
-  background-color: #0000ff;
+  background-color: #f68632;
   color: #ffffff;
 }
 
@@ -4733,6 +4733,11 @@ Page Title Area CSS
   position: relative;
   margin-top: 70px;
   text-align: center;
+}
+
+.page-title-content p{
+  font-size: 20px;
+  padding-top: 18px;
 }
 
 .page-title-content h2 {
