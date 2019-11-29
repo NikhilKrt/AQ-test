@@ -2502,6 +2502,46 @@ Services Details Area CSS
   padding-left: 25px;
 }
 
+.services-details-overview .services-details-desc .modal-body{
+  padding: 10px 30px 30px;
+}
+
+.modal-header{
+  display: grid;
+  grid-template-rows: auto auto auto;
+  justify-items: center;
+  justify-content: initial;
+  padding: 8px 20px 10px;
+  border-bottom: none;
+}
+
+.modal-header .close{
+  grid-row: 1;
+  justify-self: end;
+}
+
+.modal-title{
+  font-size: 15px; 
+  padding-top: 10px;
+}
+
+.modal-body form .form-control,.modal-body .custom-file{
+  font-size: 14px;
+  border-radius: 10px;
+  height: 45px;
+}
+
+.modal-body form .default-btn{
+  padding: 12px 20px;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  margin-top: 20px;
+}
+
+.services-details-overview .services-details-desc .btn-box{
+  margin-top: 20px;
+}
+
 .services-details-overview .services-details-desc h3 {
   margin-bottom: 15px;
   font-size: 24px;
@@ -2510,6 +2550,16 @@ Services Details Area CSS
 
 .services-details-overview .services-details-desc .features-text {
   margin-top: 25px;
+}
+
+.services-details-overview .services-details-desc .features-text p{
+  line-height: 1.5;
+}
+
+.services-details-overview .services-details-desc .features-text ul li{
+  font-size: 14px;
+  font-weight: 300;
+  color: #737b9a;
 }
 
 .services-details-overview .services-details-desc .features-text h4 {
