@@ -29,9 +29,34 @@
     <link rel="stylesheet" href="assets/css/responsive.css">
     <title>AquGen</title>
     <link rel="icon" type="image/png" href="assets/img/favicon.png">
+    <!-- Google Tag Manager -->
+    <script>
+    (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start': new Date().getTime(),
+            event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-T9J98X9');
+    </script>
+    <!-- End Google Tag Manager -->
 </head>
 
 <body>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T9J98X9" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
     <!-- Preloader -->
     <div class="preloader">
         <div class="loader">
@@ -64,12 +89,12 @@
                             <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
                             <li class="nav-item"><a href="#" class="nav-link">Services <i class="fas fa-chevron-down"></i></a>
                                 <ul class="dropdown-menu">
-                                    <li class="nav-item"><a href="services.html" class="nav-link">Strategy & Planning</a></li>
-                                    <li class="nav-item"><a href="#" class="nav-link">Design & Creatives</a></li>
-                                    <li class="nav-item"><a href="#" class="nav-link">Technology</a></li>
-                                    <li class="nav-item"><a href="#" class="nav-link">Digital Marketing</a></li>
-                                    <li class="nav-item"><a href="#" class="nav-link">Data & Analytics</a></li>
-                                    <li class="nav-item"><a href="#" class="nav-link">Maintenance</a></li>
+                                    <li class="nav-item"><a href="strategy-planning.html" class="nav-link">Strategy & Planning</a></li>
+                                    <li class="nav-item"><a href="design-creatives.html" class="nav-link">Design & Creatives</a></li>
+                                    <li class="nav-item"><a href="technology.html" class="nav-link">Technology</a></li>
+                                    <li class="nav-item"><a href="digital-marketing.html" class="nav-link">Digital Marketing</a></li>
+                                    <li class="nav-item"><a href="data-analytics.html" class="nav-link">Data & Analytics</a></li>
+                                    <li class="nav-item"><a href="maintenance.html" class="nav-link">Maintenance</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item"><a href="#" class="nav-link">Solutions <i class="fas fa-chevron-down"></i></a>
@@ -161,18 +186,18 @@
                                 </div>
                                 <!-- Modal body -->
                                 <div class="modal-body">
-                                    <form action="#" method="post">
+                                    <form action="#" method="post" class="apply-form">
                                         <div class="form-group">
-                                            <input type="text" class="form-control" id="name" name="name" placeholder="Name*" required autocomplete="off">
+                                            <input type="text" class="form-control" id="name" name="name" placeholder="Name*" required autocomplete="off" aria-label="name">
                                         </div>
                                         <div class="form-group">
-                                            <input type="email" name="email" class="form-control" id="email" placeholder="Email Address*" required autocomplete="off">
+                                            <input type="email" name="email" class="form-control" id="email" placeholder="Email Address*" required autocomplete="off" aria-label="email">
                                         </div>
                                         <div class="form-group">
-                                            <input type="number" name="number" placeholder="Contact Number*" required class="form-control">
+                                            <input type="number" name="number" placeholder="Contact Number*" required class="form-control" aria-label="number">
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" class="form-control"  name="position" placeholder="Applying for position" required autocomplete="off">
+                                            <input type="text" class="form-control"  name="position" placeholder="Applying for position" required autocomplete="off" aria-label="position">
                                         </div>
                                         <div class="form-group">
                                           <textarea class="form-control" rows="3" id="comment" placeholder="Your Message..."></textarea>
@@ -185,6 +210,9 @@
                                         <button type="submit" class="default-btn">Submit
                                             <span></span></button>
                                     </form>
+                                    <div id="form-message" style="display:none;grid-row: 1/ span 2;align-self: center;">
+                                        <p>Thankyou for applying!</p>
+                                    </div>
                                 </div>
                                 <!-- Modal footer -->
                                 <!-- <div class="modal-footer">
@@ -325,6 +353,18 @@
     </section>
     <!-- End Footer Area -->
     <div class="go-top"><i class="fas fa-chevron-up"></i></div>
+
+    <script>
+        const message = document.querySelector("#form-message");
+        const form = document.querySelector(".apply-form");
+        const button = document.querySelector(".default-btn");
+
+        form.addEventListener("submit", () => {
+            form.style.display = "none";
+            message.style.display = "block";
+        });
+    </script>
+
     <!-- jQuery Min JS -->
     <script src="assets/js/jquery.min.js"></script>
     <!-- Popper Min JS -->

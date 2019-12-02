@@ -88,7 +88,7 @@ button {
 }
 
 .partner-area.ptb-100{
-  padding-top: 50px;
+  padding-top: 40px;
 }
 
 .why-choose-area{
@@ -244,7 +244,7 @@ p:last-child {
 .form-control:focus {
   -webkit-box-shadow: unset;
           box-shadow: unset;
-  border-color: #0000ff;
+  border-color: #f68632;
 }
 
 textarea.form-control {
@@ -2322,6 +2322,7 @@ Services Area CSS
   -webkit-transition: 0.5s;
   transition: 0.5s;
   z-index: 1;
+  cursor: pointer;
 }
 
 .single-services-box .icon {
@@ -2424,7 +2425,7 @@ Services Area CSS
   width: 0;
   height: 100%;
   z-index: -1;
-  background-color: #0000ff;
+  background-color: #f68632;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -2458,7 +2459,7 @@ Services Area CSS
   -webkit-transform: translateY(-15px) rotate(360deg);
           transform: translateY(-15px) rotate(360deg);
   background-color: #ffffff;
-  color: #0000ff;
+  color: #f68632;
 }
 
 .single-services-box:hover .read-more-btn {
@@ -3806,9 +3807,15 @@ Partner Area CSS
   padding-bottom: 90px;
 }
 
+.partner-area .partner-title{
+  font-size: 25px;
+  text-align: center;
+}
+
 .partner-area .row {
   margin-left: -5px;
   margin-right: -5px;
+  padding-bottom: 60px;
 }
 
 .single-partner-item {
@@ -4783,11 +4790,6 @@ Page Title Area CSS
   position: relative;
   margin-top: 70px;
   text-align: center;
-}
-
-.page-title-content p{
-  font-size: 20px;
-  padding-top: 18px;
 }
 
 .page-title-content h2 {
@@ -6893,7 +6895,7 @@ Footer Area CSS
 }
 
 .single-footer-widget .footer-quick-links li a:hover {
-  color: #fa7070;
+  color: #f68632;
 }
 
 .single-footer-widget .footer-instagram-post {

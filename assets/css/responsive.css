@@ -723,6 +723,7 @@
     flex: 0 0 50%;
     max-width: 50%;
   }
+
   .single-partner-item a {
     padding: 10px;
   }
@@ -1592,6 +1593,7 @@
   .single-services-box h3 {
     font-size: 22px;
   }
+
   .services-details-overview {
     margin-left: -15px;
     margin-right: -15px;
@@ -2040,6 +2042,20 @@
 @media only screen and (min-width: 1550px) {
   .main-banner {
     padding-top: 238px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .single-partner-item.rummycentral{
+    margin-left: 20%;
+  }
+
+  .volvo{
+    margin-left: 30%;
+  }
+
+  .tradebulls{
+    margin-left: 30%;
   }
 }
 /*# sourceMappingURL=responsive.css.map */
