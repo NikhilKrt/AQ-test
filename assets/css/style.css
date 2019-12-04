@@ -6908,6 +6908,11 @@ Footer Area CSS
   margin-top: -10px;
 }
 
+.single-footer-widget .footer-instagram-post strong{
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 .single-footer-widget .footer-instagram-post li {
   padding-left: 5px;
   padding-right: 5px;
