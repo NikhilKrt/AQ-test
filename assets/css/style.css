@@ -312,8 +312,7 @@ Preloader Area CSS
   width: 60%;
   height: 100%;
   z-index: -1;
-  background: url("../img/loader-bg.jpg");
-  background-repeat: no-repeat; 
+  background-color: #ffffff;
   -webkit-transition: .9s;
   transition: .9s;
 }
