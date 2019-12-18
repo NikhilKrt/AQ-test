@@ -62,7 +62,9 @@
     <div class="preloader">
         <div class="loader">
             <div class="shadow"></div>
-            <div class="box"></div>
+            <div class="box">
+                <img src="assets/img/favicon2.png">
+            </div>
         </div>
     </div>
     <!-- End Preloader -->
@@ -204,7 +206,7 @@
                                           <textarea class="form-control" rows="3" id="comment" placeholder="Your Message..."></textarea>
                                         </div>
                                         <div class="custom-file">
-                                            <input type="file" class="custom-file-input" id="customFile">
+                                            <input type="file" class="custom-file-input" id="customFile" required="true">
                                             <label class="custom-file-label" for="customFile">Upload Resume</label>
                                         </div>
                                         
@@ -215,10 +217,6 @@
                                         <p>Thankyou for applying!</p>
                                     </div>
                                 </div>
-                                <!-- Modal footer -->
-                                <!-- <div class="modal-footer">
-                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -297,6 +295,39 @@
                     <img src="assets/img/software_developer.png" alt="image">
                 </div>
             </div>
+            <div class="services-details-overview">
+                <div class="services-details-image wow fadeInUp">
+                    <img src="assets/img/business_dev.png" alt="image">
+                </div>
+                <div class="services-details-desc">
+                    <h3>Associate – Business Development Manager </h3>
+                    <div class="features-text">
+                        <h4>Roles and Responsibilities:</h4>
+                        <ul>
+                            <li> The incumbent will be the pillar of business development vertical at AquGen Technologies specializing in Digital Marketing Services. He/She will be responsible for driving the digital product portfolio comprising of Programmatic Media, Performance Marketing, Branding, Emails, Adwords and Facebook campaigns. Please note that this is not a field sales role.</li>
+                            <li> Research on prospective clients and ongoing digital campaigns in market.</li>
+                            <li> Grow and manage the sales pipeline by pitching digital advertising services on Adwords, Facebook and LinkedIn.</li>
+                            <li>Initiating contact and meetings with the prospective clients.</li>
+                            <li>Closing the deal and on boarding the client</li>
+                            <li>Liaison with the account management team for campaign management</li>
+                        </ul>
+                    </div>
+                    <div class="features-text">
+                        <h4>Work Experience and Education requirement:</h4>
+                        <ul>
+                            <li> 1-4 years of experience in pre-sales/ tele sales/ ad sales/ digital media.</li>
+                            <li>Candidate should be comfortable working with MS Excel and data.</li>
+                            <li>Any experience in making client proposals and ppts would be an added advantage.</li>
+                            <li>Any Graduate or Post Graduate qualification.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="btn-box">
+                        <a href="" class="default-btn" data-toggle="modal" data-target="#myModal">Apply for this Job
+                            <span></span></a>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <!-- End Services Details Area -->
@@ -327,10 +358,10 @@
                         <h3>Our Office</h3>
                         <ul class="footer-instagram-post">
                             <li>
-                                <p><strong>New Delhi</strong> - 1st Floor, L-29 Connaught Place, New Delhi.</p>
+                                <p><strong>New Delhi</strong><br> 1st Floor, L-29 , Outer Circle , Connaught Place, New Delhi.</p>
                             </li>
                             <li>
-                                <p><strong>Dubai</strong> - 5th Floor, Sheikh Rashid Tower Dubai World Trade Center. Sheikh Zayed Road, Dubai.</p>
+                                <p><strong>Dubai</strong><br> 5th Floor, Sheikh Rashid Tower Dubai World Trade Center. Sheikh Zayed Road, Dubai.</p>
                             </li>
                         </ul>
                     </div>
@@ -396,6 +427,7 @@
     <script src="assets/js/contact-form-script.js"></script>
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
 </body>
 
 </html>
