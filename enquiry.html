@@ -126,6 +126,9 @@
                         <p>Our philosophy is simple: Acquire & Generate!
                             The sole purpose is to improve your brand awareness, boost your digital ROI and help you reach your customers more effectively.
                         </p>
+                        <div class="plane">
+                            <img src="assets/img/plane.png" alt="icon">
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-5 col-md-6 offset-lg-1" id="formarea">
@@ -496,16 +499,16 @@
         for (let value of formdata.values()) {
             console.log(value);
         }
-        // xmlHttp.onreadystatechange = function() {
-        //     if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
-        //     callback(xmlHttp.responseText);
-        // }
-        // xmlHttp.open("POST", url, true); // true for asynchronous
-        // xmlHttp.send(formdata);
+        xmlHttp.onreadystatechange = function() {
+            if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
+            callback(xmlHttp.responseText);
+        }
+        xmlHttp.open("POST", url, true); // true for asynchronous
+        xmlHttp.send(formdata);
     }
 
     function sendGET() {
-        httpGetAsync('', function(data) {
+        httpGetAsync('http://enquiry.aqugen.com/enquiry', function(data) {
             console.log(data);
             let form = document.getElementById('formarea');
             let message = document.getElementById('form-message');
