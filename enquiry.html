@@ -514,8 +514,8 @@
         }
 
         xmlHttp.open("POST", url, true); // true for asynchronous
-        xmlHttp.setRequestHeader('Content-Type','application/x-www-form-urlencoded')
-        xmlHttp.send(JSON.stringify(temp));
+        xmlHttp.setRequestHeader('Content-Type','application/json')
+        xmlHttp.send(temp);
     }
 
     function sendGET() {
