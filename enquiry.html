@@ -52,6 +52,27 @@
 </head>
 
 <body onload="submit()">
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+        window.fbAsyncInit = function() {
+  FB.init({
+    xfbml            : true,
+    version          : 'v5.0'
+  });
+};
+
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+    <!-- Your customer chat code -->
+    <div class="fb-customerchat" attribution=install_email page_id="400456850136347" theme_color="#f68632">
+    </div>
+    
     <!-- Google Tag Manager (noscript) -->
     <noscript>
         <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T9J98X9" height="0" width="0" style="display:none;visibility:hidden"></iframe>
@@ -161,7 +182,6 @@
                                 <div class="col-lg-12 col-md-12">
                                     <div class="form-group">
                                         <input type="text" name="message" id="msg_subject" class="form-control" required placeholder="Your Message*" aria-label="message">
-                                        
                                     </div>
                                 </div>
                                 <div class="col-lg-12 col-md-12">
@@ -396,7 +416,6 @@
     </section>
     <!-- End Footer Area -->
     <div class="go-top"><i class="fas fa-chevron-up"></i></div>
-   
     <script type="text/javascript">
     var x = '';
 
@@ -423,7 +442,6 @@
         element.style.display = 'none';
     }
     </script>
-
     <script type="text/javascript">
     function httpGetAsync(theUrl, callback) {
         var xmlHttp = new XMLHttpRequest();
@@ -440,30 +458,30 @@
         let formdata = new FormData();
 
         if (name) {
-            formdata.append('Name',name);
+            formdata.append('Name', name);
         }
 
         if (email) {
-            formdata.append('Email',email);
+            formdata.append('Email', email);
         }
-        
+
         if (city) {
-            formdata.append('City',city);
+            formdata.append('City', city);
         }
         if (phone) {
-            formdata.append('Phone',phone);
+            formdata.append('Phone', phone);
         }
-         if (company) {
+        if (company) {
             // url = url + 'Company=' + company + '&';
-            formdata.append('Company',company);
+            formdata.append('Company', company);
         }
 
         if (requirements) {
-            formdata.append('Requirements',requirements);
+            formdata.append('Requirements', requirements);
         }
 
         if (message) {
-            formdata.append('Message',message);
+            formdata.append('Message', message);
         }
 
         let url_string = window.location.href;
@@ -471,10 +489,10 @@
         var content = durl.searchParams.get("utm_content");
         if (content) {
             // url = url + 'Source=' + content + '&';
-            formdata.append('Source',content);
+            formdata.append('Source', content);
         }
         console.log(formdata.values());
-        for(let value of formdata.values()){
+        for (let value of formdata.values()) {
             console.log(value);
         }
         // xmlHttp.onreadystatechange = function() {
