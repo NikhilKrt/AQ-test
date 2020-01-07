@@ -460,32 +460,40 @@
 
 
         let formdata = new FormData();
+        let temp = {};
 
         if (name) {
             formdata.append('Name', name);
+            temp['Name']=name;
         }
 
         if (email) {
             formdata.append('Email', email);
+            temp['Name']=name;
         }
 
         if (city) {
             formdata.append('City', city);
+            temp['Name']=name;
         }
         if (phone) {
             formdata.append('Phone', phone);
+            temp['Phone']=phone
         }
         if (company) {
             // url = url + 'Company=' + company + '&';
             formdata.append('Company', company);
+            temp['Company']=company;
         }
 
         if (requirements) {
             formdata.append('Requirements', requirements);
+            temp['Requirements']=requirements;
         }
 
         if (message) {
             formdata.append('Message', message);
+            temp['Message']=message;
         }
 
         let url_string = window.location.href;
@@ -494,6 +502,7 @@
         if (content) {
             // url = url + 'Source=' + content + '&';
             formdata.append('Source', content);
+            temp['Source']=content;
         }
         console.log(formdata.values());
         for (let value of formdata.values()) {
@@ -504,7 +513,7 @@
             callback(xmlHttp.responseText);
         }
         xmlHttp.open("POST", url, true); // true for asynchronous
-        xmlHttp.send(formdata);
+        xmlHttp.send(JSON.stringify(temp));
     }
 
     function sendGET() {
