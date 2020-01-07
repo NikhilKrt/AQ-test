@@ -100,6 +100,7 @@ button {
 
 .contact-area .section-title h2{
   font-size: 55px;
+  color: #838383;
 }
 
 .contact-area .overlay {
@@ -6564,6 +6565,7 @@ Contact Area CSS
   border-bottom: 2px solid grey;
   height: 35px;
   font-size: 16px;
+  color: #fff;
 }
 
 .contact-form form .row {
@@ -6953,4 +6955,5 @@ Go Top CSS
   color: #ffffff;
   background-color: #e16e19;
 }
+
 /*# sourceMappingURL=style.css.map 
