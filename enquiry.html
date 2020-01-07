@@ -1,0 +1,532 @@
+<!doctype html>
+<html lang="zxx">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap Min CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Animate Min CSS -->
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <!-- FlatIcon CSS -->
+    <link rel="stylesheet" href="assets/css/flaticon.css">
+    <!-- Odometer Min CSS -->
+    <link rel="stylesheet" href="assets/css/odometer.min.css">
+    <!-- MeanMenu CSS -->
+    <link rel="stylesheet" href="assets/css/meanmenu.css">
+    <!-- Magnific Popup Min CSS -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+    <!-- Nice Select Min CSS -->
+    <link rel="stylesheet" href="assets/css/nice-select.min.css">
+    <!-- Owl Carousel Min CSS -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <!-- Font Awesome Min CSS -->
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="assets/css/style2.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link href="https://fonts.googleapis.com/css?family=Overpass:100,200,300,400,500,600,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+    <title>AquGen</title>
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start': new Date().getTime(),
+            event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-T9J98X9');
+    </script>
+    <!-- End Google Tag Manager -->
+</head>
+
+<body onload="submit()">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T9J98X9" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="bg"></div>
+    <!-- Start Navbar Area -->
+    <div class="navbar-area">
+        <div class="aronix-responsive-nav">
+            <div class="container">
+                <div class="aronix-responsive-menu">
+                    <div class="logo">
+                        <img src="assets/img/logo.png" alt="logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="aronix-nav">
+            <div class="container">
+                <nav class="navbar navbar-expand-md navbar-light">
+                    <img src="assets/img/logo2.png" alt="logo">
+                    <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a href="https://aqugen.com/about.html" target="_blank" class="nav-link">About Us</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Services <i class="fas fa-chevron-down"></i></a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item"><a href="https://aqugen.com/strategy-planning.html" target="_blank" class="nav-link">Strategy & Planning</a></li>
+                                    <li class="nav-item"><a href="https://aqugen.com/design-creatives.html" target="_blank" class="nav-link">Design & Creatives</a></li>
+                                    <li class="nav-item"><a href="https://aqugen.com/technology.html" target="_blank" class="nav-link">Technology</a></li>
+                                    <li class="nav-item"><a href="https://aqugen.com/digital-marketing.html" target="_blank" class="nav-link">Digital Marketing</a></li>
+                                    <li class="nav-item"><a href="https://aqugen.com/data-analytics.html" target="_blank" class="nav-link">Data & Analytics</a></li>
+                                    <li class="nav-item"><a href="https://aqugen.com/maintenance.html" target="_blank" class="nav-link">Maintenance</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a href="https://aqugen.com/academy/" target="_blank" class="nav-link">Aqugen Academy</a></li>
+                            <li class="nav-item"><a href="https://aqugen.com/contact.html" target="_blank" class="nav-link">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- End Navbar Area -->
+    <!-- Start Contact Area -->
+    <section class="contact-area ptb-100">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-6">
+                    <div class="section-title">
+                        <h2>Welcome to <span class="highlight">AquGen</span></h2>
+                        <p>Our philosophy is simple: Acquire & Generate!
+                            The sole purpose is to improve your brand awareness, boost your digital ROI and help you reach your customers more effectively.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6 offset-lg-1" id="formarea">
+                    <div class="contact-form enquiry-form">
+                        <form onsubmit="sendGET(); return false;" id="contactForm" autocomplete="off">
+                            <div class="title">
+                                <p class="form-text">Get Started</p>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" name="name" id="name" class="form-control" required placeholder="Name*" aria-label="name">
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12">
+                                    <div class="form-group">
+                                        <input type="email" name="email" id="email" class="form-control" placeholder="Email*" aria-label="email">
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" name="phone_number" id="phone_number" required class="form-control" placeholder="Phone Number*" aria-label="phone_number">
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" name="city" id="city" class="form-control" required placeholder="City*" aria-label="city">
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12">
+                                    <div class="form-group">
+                                        <select class="dropdown form-control" name="Requirements" required="true" id="requirements">
+                                            <option value="">Select a Service</option>
+                                            <option value="Google Paid Media">Google Paid Media</option>
+                                            <option value="Social Paid Media">Social Paid Media</option>
+                                            <option value="Innovative Ad Technologies">Innovative Ad Technologies</option>
+                                            <option value="Programmatic Media Buying">Programmatic Media Buying</option>
+                                            <option value="Performance Marketing">Performance Marketing</option>
+                                            <option value="Website Development">Website Development</option>
+                                            <option value="Other Tech Services">Other Tech Services</option>
+                                            <option value="Startup Mentoring">Startup Mentoring</option>
+                                            <option value="Enterprise Services">Enterprise Services</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <input type="hidden" name="Source" id="source">
+                                <input type="hidden" name="trans" id="trans">
+                                <input type="hidden" name="Geo" id="geo">
+                                <div class="col-lg-12 col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" name="company" id="company" class="form-control" required placeholder="Company Name*" aria-label="company">
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" name="message" id="msg_subject" class="form-control" required placeholder="Your Message*" aria-label="message">
+                                        
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12">
+                                    <button type="submit" class="default-btn">Enquire Now <span></span></button>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="overlay hidden" id="form-message" style="display: none;">
+                <div class="popupText">
+                    <p class="">Thank you for contacting us. <br> We will get back to you soon</p>
+                    <div class="close">
+                        <a class="close" onclick="popupclose()">×</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="particles-js"><canvas class="particles-js-canvas-el" width="1349" height="500" style="width: 100%; height: 100%;"></canvas></div>
+    </section>
+    <!-- End Contact Area -->
+    <!-- Start Why Choose Us Area -->
+    <section class="why-choose-area ptb-100">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12">
+                    <div class="why-choose-content">
+                        <h2>ABOUT AQUGEN</h2>
+                        <p>AquGen envisions building a transparent and trustworthy line of communication between brands and their audiences. We have clients in the following industries to help these brands boost their online presence by running successful campaigns.</p>
+                        <div class="features-text">
+                            <h4><img src="assets/img/about3.png" alt="icon"> REAL ESTATE</h4>
+                            <p>We have improved online presence of Real Estate clients like Puvankara, TATA Housing, Mahindra Properties</p>
+                        </div>
+                        <div class="features-text">
+                            <h4><img src="assets/img/about4.png" alt="icon"> FINANCE</h4>
+                            <p>We have bought great exposure to some of the leading banks like Finance-ICICI Bank, SBI, CurrencyKart,Kotak</p>
+                        </div>
+                        <div class="features-text">
+                            <h4><img src="assets/img/about1.png" alt="icon"> E-COMMERCE</h4>
+                            <p>We have got many clients from this top-performing industry like Amazon, Nyka, Myntra, Clovia,Jabong.</p>
+                        </div>
+                        <div class="features-text">
+                            <h4><img src="assets/img/about2.png" alt="icon"> EDUCATION</h4>
+                            <p>We have helped clients from the Education industry such as Gisma, NMIMS, Pearson, boost their ROI.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="why-choose-image">
+                        <img src="assets/img/why-choose-img1.png" alt="image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Why Choose Us Area -->
+    <!-- Start Featured Services Area -->
+    <section class="featured-services-area ptb-100 pt-0">
+        <div class="container">
+            <div class="section-title">
+                <span class="sub-title">Our Services</span>
+                <h2>Our Featured Services</h2>
+                <p>Getting you an impeccable presence on different online platforms is the main purpose behind our campaigns. Also, to ensure that you’re at the top of your game with our services!</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 col-md-6">
+                    <div class="single-featured-box">
+                        <div class="icon">
+                            <img src="assets/img/strategy_planning.png">
+                        </div>
+                        <h3>Digital Strategy & Planning</h3>
+                        <p>Every Organization is different and needs a strategy specific to its business scenario. Our team understands your business from your Point Of View and helps you craft a strategy to reach your business goals effectively.</p>
+                        <a href="https://aqugen.com/strategy-planning.html" target="_blank" class="default-btn">Read More <span></span></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-md-6">
+                    <div class="single-featured-box">
+                        <div class="icon color-facd60">
+                            <img src="assets/img/design_creatives.png">
+                        </div>
+                        <h3>Design & Creatives</h3>
+                        <p>Weather you are starting off or just looking to re-engage your customers, our creative team can help you get through to your customers with messages & designs presented in the most simple yet powerful way.</p>
+                        <a href="https://aqugen.com/design-creatives.html" target="_blank" class="default-btn">Read More <span></span></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-md-6">
+                    <div class="single-featured-box">
+                        <div class="icon color-1ac0c6">
+                            <img src="assets/img/technology.png">
+                        </div>
+                        <h3>Technology</h3>
+                        <p>We believe the technology's role should always be to enable the business grow faster. With this philosophy we ensure that all our clients make the best & informed choices while working on technolgy for their businesses.</p>
+                        <a href="https://aqugen.com/technology.html" target="_blank" class="default-btn">Read More <span></span></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-md-6">
+                    <div class="single-featured-box">
+                        <div class="icon">
+                            <img src="assets/img/data_analytics.png">
+                        </div>
+                        <h3>Data & Analytics</h3>
+                        <p>Measurement is the key word in the world of data and analytics. Our team will help you identify the right metrics to track & optimize, using technology to automate & enable better decision making and increasing your ROI.</p>
+                        <a href="https://aqugen.com/data-analytics.html" target="_blank" class="default-btn">Read More <span></span></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-md-6">
+                    <div class="single-featured-box">
+                        <div class="icon color-facd60">
+                            <img src="assets/img/digital_marketing.png">
+                        </div>
+                        <h3>Digital Marketing</h3>
+                        <p>Our years of experience in Digital Space helps us help our cutomers in any industry with right solutions. Implementable & achievable startegies, with powerful campiagn design helps us meet the business goals for our clients.</p>
+                        <a href="https://aqugen.com/digital-marketing.html" target="_blank" class="default-btn">Read More <span></span></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-md-6">
+                    <div class="single-featured-box">
+                        <div class="icon color-1ac0c6">
+                            <img src="assets/img/maintenance.png">
+                        </div>
+                        <h3>Maintenance</h3>
+                        <p>Don’t want to Hire an expert for dev-Ops, monthly development changes, System administration ?
+                            We provide you an extended team which will manage your entire technology ecosystem so that you never loose sleep.
+                        </p>
+                        <a href="https://aqugen.com/maintenance.html" target="_blank" class="default-btn">Read More <span></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Featured Services Area -->
+    <!-- Start Blog Area -->
+    <section class="blog-area ptb-100 bg-F4F7FC">
+        <div class="container">
+            <div class="section-title">
+                <span class="sub-title">Learn with AquGen</span>
+                <h2>Our Latest Articles And News For Our Clients</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-blog-post">
+                        <div class="post-image">
+                            <a href="#"><img src="assets/img/blog-image/1.jpg" alt="image"></a>
+                        </div>
+                        <div class="post-content">
+                            <h3><a href="#">How To Boost Your Digital Marketing Agency</a></h3>
+                            <a href="#" class="read-more-btn">Read More <i class="flaticon-right-arrow"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-blog-post">
+                        <div class="post-image">
+                            <a href="#"><img src="assets/img/blog-image/2.jpg" alt="image"></a>
+                        </div>
+                        <div class="post-content">
+                            <h3><a href="#">The Rise Of Smarketing And Why You Need It</a></h3>
+                            <a href="#" class="read-more-btn">Read More <i class="flaticon-right-arrow"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
+                    <div class="single-blog-post">
+                        <div class="post-image">
+                            <a href="#"><img src="assets/img/blog-image/3.jpg" alt="image"></a>
+                        </div>
+                        <div class="post-content">
+                            <h3><a href="#">How To Use Music To Boost Your Business</a></h3>
+                            <a href="#" class="read-more-btn">Read More <i class="flaticon-right-arrow"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  <div class="shape-img2"><img src="assets/img/shape/2.svg" alt="image"></div>
+        <div class="shape-img3"><img src="assets/img/shape/3.svg" alt="image"></div> -->
+    </section>
+    <!-- End Blog Area -->
+    <!-- Start Footer Area -->
+    <section class="footer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6 about">
+                    <div class="single-footer-widget">
+                        <div class="logo-white"><img src="assets/img/aqugen-logo.png" alt="logo"></div>
+                        <p>With the evolution of digital media, the objective of marketing has always been to be able to Measure. AquGen is a Digital technology company that combines the media with the best technology & helps our customers Measure & Drive Digital Success.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-footer-widget pl-5">
+                        <h3>Links</h3>
+                        <ul class="footer-quick-links">
+                            <li><a href="https://aqugen.com/about.html" target="_blank">About Us</a></li>
+                            <li><a href="https://aqugen.com/contact.html" target="_blank">Contact Us</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="https://aqugen.com/academy/" target="_blank">Learn with AquGen</a></li>
+                            <li><a href="https://aqugen.com/career.html" target="_blank">Career</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-footer-widget pl-5">
+                        <h3>Our Office</h3>
+                        <ul class="footer-instagram-post">
+                            <li>
+                                <p><strong>New Delhi</strong><br> 1st Floor, L-29 , Outer Circle , Connaught Place, New Delhi.</p>
+                            </li>
+                            <li>
+                                <p><strong>Dubai</strong><br> 5th Floor, Sheikh Rashid Tower Dubai World Trade Center. Sheikh Zayed Road, Dubai.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-footer-widget pl-5">
+                        <h3>Connect With Us</h3>
+                        <ul class="connect">
+                            <a href="https://www.facebook.com/aqugentech/"><img src="assets/img/7.png"></a>
+                            <a href="https://www.linkedin.com/company/9359454/admin/"><img src="assets/img/8.png"></a>
+                            <a href="https://twitter.com/AquGenTech"><img src="assets/img/9.png"></a>
+                            <a href="https://www.instagram.com/aqugentechnologies/?hl=en"><img src="assets/img/10.png"></a>
+                        </ul>
+                        <div class="g-partnersbadge" data-agency-id="6175342218">
+                            <a href="#"><img src="assets/img/google_logo.jpg"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Footer Area -->
+    <div class="go-top"><i class="fas fa-chevron-up"></i></div>
+   
+    <script type="text/javascript">
+    var x = '';
+
+    function submit() {
+        let url_string = window.location.href;
+        var url = new URL(url_string);
+        var content = url.searchParams.get("utm_platform");
+        var geo = url.searchParams.get("utm_geo");
+        let element = document.getElementById('form-message');
+        if (window.location.href.includes('?success=true')) {
+            element.style.display = 'grid';
+        } else if (content) {
+            let input = document.getElementById('source');
+            input.value = content;
+        }
+        if (geo) {
+            let input = document.getElementById('geo');
+            input.value = geo;
+        }
+    }
+
+    function popupclose() {
+        let element = document.getElementById('form-message');
+        element.style.display = 'none';
+    }
+    </script>
+
+    <script type="text/javascript">
+    function httpGetAsync(theUrl, callback) {
+        var xmlHttp = new XMLHttpRequest();
+        var url = theUrl + '?';
+        var name = document.getElementById('name').value;
+        var email = document.getElementById('email').value;
+        var phone = document.getElementById('phone_number').value;
+        var city = document.getElementById('city').value;
+        var company = document.getElementById('company').value;
+        var requirements = document.getElementById('requirements').value;
+        var message = document.getElementById('msg_subject').value;
+
+
+        let formdata = new FormData();
+
+        if (name) {
+            formdata.append('Name',name);
+        }
+
+        if (email) {
+            formdata.append('Email',email);
+        }
+        
+        if (city) {
+            formdata.append('City',city);
+        }
+        if (phone) {
+            formdata.append('Phone',phone);
+        }
+         if (company) {
+            // url = url + 'Company=' + company + '&';
+            formdata.append('Company',company);
+        }
+
+        if (requirements) {
+            formdata.append('Requirements',requirements);
+        }
+
+        if (message) {
+            formdata.append('Message',message);
+        }
+
+        let url_string = window.location.href;
+        var durl = new URL(url_string);
+        var content = durl.searchParams.get("utm_content");
+        if (content) {
+            // url = url + 'Source=' + content + '&';
+            formdata.append('Source',content);
+        }
+        console.log(formdata.values());
+        for(let value of formdata.values()){
+            console.log(value);
+        }
+        // xmlHttp.onreadystatechange = function() {
+        //     if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
+        //     callback(xmlHttp.responseText);
+        // }
+        // xmlHttp.open("POST", url, true); // true for asynchronous
+        // xmlHttp.send(formdata);
+    }
+
+    function sendGET() {
+        httpGetAsync('', function(data) {
+            console.log(data);
+            let form = document.getElementById('formarea');
+            let message = document.getElementById('form-message');
+            form.style.display = 'none';
+            message.style.display = 'block';
+        });
+        return false;
+    }
+    </script>
+    <!-- jQuery Min JS -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- Popper Min JS -->
+    <script src="assets/js/popper.min.js"></script>
+    <!-- Bootstrap Min JS -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- MeanMenu JS  -->
+    <script src="assets/js/jquery.meanmenu.js"></script>
+    <!-- Appear Min JS -->
+    <script src="assets/js/jquery.appear.min.js"></script>
+    <!-- Odometer Min JS -->
+    <script src="assets/js/odometer.min.js"></script>
+    <!-- Owl Carousel Min JS -->
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!-- Magnific Popup Min JS -->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- Parallax Min JS -->
+    <script src="assets/js/parallax.min.js"></script>
+    <!-- Nice Select Min JS -->
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <!-- WOW Min JS -->
+    <script src="assets/js/wow.min.js"></script>
+    <!-- AjaxChimp Min JS -->
+    <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+    <!-- Form Validator Min JS -->
+    <script src="assets/js/form-validator.min.js"></script>
+    <!-- Contact Form Min JS -->
+    <script src="assets/js/contact-form-script.js"></script>
+    <!-- Main JS -->
+    <script src="assets/js/main.js"></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+</body>
+
+</html>
