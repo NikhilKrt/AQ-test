@@ -2074,4 +2074,14 @@
     margin-left: 10%;
   }
 }
+
+@media only screen and (min-width: 991px) {
+  .contact-area .plane{
+    position: absolute;
+    top: 207px;
+  }
+
+  .contact-area .section-title{
+    padding-bottom: 109px;
+  }
 /*# sourceMappingURL=responsive.css.map */

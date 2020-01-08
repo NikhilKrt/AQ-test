@@ -6956,4 +6956,18 @@ Go Top CSS
   background-color: #e16e19;
 }
 
+/*.contact-area .plane{
+    animation: plane 1s ease-in;
+}
+
+@keyframes plane{
+  0%{
+    margin-top: 400px;
+  }
+
+  100%{
+    margin-top: 207px;
+  }
+}*/
+
 /*# sourceMappingURL=style.css.map 
