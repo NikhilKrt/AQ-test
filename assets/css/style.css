@@ -65,6 +65,11 @@ img {
   width: 100%;
 }
 
+img.youtube{
+  width: 32px;
+  height: 32px;
+}
+
 button {
   outline: 0 !important;
 }
