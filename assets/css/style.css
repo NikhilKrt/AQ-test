@@ -7063,4 +7063,21 @@ Go Top CSS
   display: block;
 }
 
+.features-text a.mail{
+  color: #737b9a;
+  font-style: italic;
+  font-size: 17px;
+    font-weight: 500;
+}
+
+.features-text a.mail:hover{
+  color: #f68632;
+}
+
+.features-text span.state{
+  color: #737b9a;
+  font-size: 15px;
+  font-weight: 500;
+}
+
 /*# sourceMappingURL=style.css.map 
