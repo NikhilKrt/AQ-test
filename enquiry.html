@@ -152,7 +152,7 @@
                 </div>
                 <div class="col-lg-5 col-md-6 offset-lg-1" id="formarea">
                     <div class="contact-form enquiry-form">
-                        <form id="contactForm" autocomplete="off">
+                        <form onsubmit="sendGET(); return false;" >
                             <div class="title">
                                 <p class="form-text">Get Started</p>
                             </div>
@@ -169,7 +169,7 @@
                                 </div>
                                 <div class="col-lg-12 col-md-12">
                                     <div class="form-group">
-                                        <input type="text" name="phone_number" id="phone_number" required class="form-control" placeholder="Phone Number*" aria-label="phone_number">
+                                        <input type="tel" name="phone_number" id="phone_number" required class="form-control" placeholder="Phone Number*" aria-label="phone_number">
                                     </div>
                                 </div>
                                 <div class="col-lg-12 col-md-12">
@@ -455,9 +455,9 @@
         var name = document.getElementById('name').value;
         var email = document.getElementById('email').value;
         var phone = document.getElementById('phone_number').value;
-        var city = document.getElementById('city').value;
+        // var city = document.getElementById('city').value;
         var company = document.getElementById('company').value;
-        var requirements = document.getElementById('requirements').value;
+        // var requirements = document.getElementById('requirements').value;
         var message = document.getElementById('msg_subject').value;
 
 
@@ -474,10 +474,10 @@
             temp['Name']=name;
         }
 
-        if (city) {
-            formdata.append('City', city);
-            temp['Name']=name;
-        }
+        // if (city) {
+        //     formdata.append('City', city);
+        //     temp['Name']=name;
+        // }
         if (phone) {
             formdata.append('Phone', phone);
             temp['Phone']=phone
@@ -488,10 +488,10 @@
             temp['Company']=company;
         }
 
-        if (requirements) {
-            formdata.append('Requirements', requirements);
-            temp['Requirements']=requirements;
-        }
+        // if (requirements) {
+        //     formdata.append('Requirements', requirements);
+        //     temp['Requirements']=requirements;
+        // }
 
         if (message) {
             formdata.append('Message', message);
