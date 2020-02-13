@@ -88,6 +88,10 @@ button {
   padding-bottom: 100px;
 }
 
+.services-details-area{
+  padding-top: 0;
+}
+
 .contact-area.ptb-100,.about-area.ptb-100{
   padding-top: 195px;
 }
