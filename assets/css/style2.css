@@ -104,7 +104,6 @@ button {
 }
 
 .contact-area .overlay {
-    visibility: hidden;
     position: fixed;
     top: 0;
     left: 0;
@@ -112,10 +111,14 @@ button {
     width: 100vw;
     height: 100vh;
     display: grid;
+    z-index: 11;
 }
 
 .contact-area .overlay .popupText {
     position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background: white;
     color: black;
     max-width: 500px;
