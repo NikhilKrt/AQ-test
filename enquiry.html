@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="zxx">
+<html lang="en">
 
 <head>
     <!-- Required meta tags -->
@@ -425,17 +425,21 @@
     <script type="text/javascript">
     var x = '';
 
-    function submit() {
+	 submit();
+
+    function submit() {console.log("SDSDSDSDSD");
         let url_string = window.location.href;
         var url = new URL(url_string);
-        var content = url.searchParams.get("utm_platform");
+        var content = url.searchParams.get("utm_platform");console.log(content);
         var geo = url.searchParams.get("utm_geo");
         let element = document.getElementById('form-message');
         if (window.location.href.includes('?success=true')) {
             element.style.display = 'grid';
-        } else if (content) {
+        } 
+	if (content) {
             let input = document.getElementById('source');
             input.value = content;
+		console.log("SDSDS");
         }
         if (geo) {
             let input = document.getElementById('geo');
@@ -459,6 +463,8 @@
         var company = document.getElementById('company').value;
         // var requirements = document.getElementById('requirements').value;
         var message = document.getElementById('msg_subject').value;
+	var source = document.getElementById('source').value;
+	var geo = document.getElementById('geo').value;
 
 
         let formdata = new FormData();
@@ -471,7 +477,7 @@
 
         if (email) {
             formdata.append('Email', email);
-            temp['Name']=name;
+            temp['Email']=email;
         }
 
         // if (city) {
@@ -498,6 +504,15 @@
             temp['Message']=message;
         }
 
+	if (source) {
+            temp['Source']=source;
+        }
+
+	if (geo) {
+            
+            temp['Geo']=geo;
+        }
+
         let url_string = window.location.href;
         var durl = new URL(url_string);
         var content = durl.searchParams.get("utm_content");
@@ -517,12 +532,13 @@
 
         xmlHttp.open("POST", url, true); // true for asynchronous
         xmlHttp.setRequestHeader('Content-Type','application/json')
-        xmlHttp.send(temp);
+        xmlHttp.send(JSON.stringify(temp));
     }
 
 
     function sendGET() {
-        httpGetAsync('https://www.aqugen.com/enquiry.html', function(data) {
+
+        httpGetAsync('https://enquiry.aqugen.com/enquiry', function(data) {
             console.log(data);
             let form = document.getElementById('formarea');
             let message = document.getElementById('form-message');
