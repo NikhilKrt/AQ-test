@@ -463,6 +463,8 @@
         var company = document.getElementById('company').value;
         // var requirements = document.getElementById('requirements').value;
         var message = document.getElementById('msg_subject').value;
+	var source = document.getElementById('source').value;
+	var geo = document.getElementById('geo').value;
 
 
         let formdata = new FormData();
@@ -500,6 +502,15 @@
         if (message) {
             formdata.append('Message', message);
             temp['Message']=message;
+        }
+
+	if (source) {
+            temp['Source']=source;
+        }
+
+	if (geo) {
+            
+            temp['Geo']=geo;
         }
 
         let url_string = window.location.href;
