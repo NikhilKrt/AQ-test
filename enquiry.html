@@ -425,17 +425,21 @@
     <script type="text/javascript">
     var x = '';
 
-    function submit() {
+	 submit();
+
+    function submit() {console.log("SDSDSDSDSD");
         let url_string = window.location.href;
         var url = new URL(url_string);
-        var content = url.searchParams.get("utm_platform");
+        var content = url.searchParams.get("utm_platform");console.log(content);
         var geo = url.searchParams.get("utm_geo");
         let element = document.getElementById('form-message');
         if (window.location.href.includes('?success=true')) {
             element.style.display = 'grid';
-        } else if (content) {
+        } 
+	if (content) {
             let input = document.getElementById('source');
             input.value = content;
+		console.log("SDSDS");
         }
         if (geo) {
             let input = document.getElementById('geo');
