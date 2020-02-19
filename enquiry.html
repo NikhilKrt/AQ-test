@@ -427,10 +427,10 @@
 
 	 submit();
 
-    function submit() {console.log("SDSDSDSDSD");
+    function submit() {
         let url_string = window.location.href;
         var url = new URL(url_string);
-        var content = url.searchParams.get("utm_platform");console.log(content);
+        var content = url.searchParams.get("utm_platform");
         var geo = url.searchParams.get("utm_geo");
         let element = document.getElementById('form-message');
         if (window.location.href.includes('?success=true')) {
@@ -439,7 +439,7 @@
 	if (content) {
             let input = document.getElementById('source');
             input.value = content;
-		console.log("SDSDS");
+		
         }
         if (geo) {
             let input = document.getElementById('geo');
@@ -541,7 +541,7 @@
             let form = document.getElementById('formarea');
             let message = document.getElementById('form-message');
             form.style.display = 'none';
-            message.style.display = 'block';
+            message.style.display = 'grid';
         });
         return false;
     }
