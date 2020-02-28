@@ -151,7 +151,7 @@
                 </div>
                 <div class="col-lg-5 col-md-6 offset-lg-1" id="formarea">
                     <div class="contact-form enquiry-form">
-                        <form onsubmit="sendGET(); return false;">
+                        <form method="post" action="http://localhost:3000/form">
                             <div class="title">
                                 <p class="form-text">Get Started</p>
                             </div>
@@ -163,17 +163,17 @@
                                 </div>
                                 <div class="col-lg-12 col-md-12">
                                     <div class="form-group">
-                                        <input type="email" name="email" id="email" class="form-control" placeholder="Email*" aria-label="email">
+                                        <input type="email" name="Email" id="email" class="form-control" placeholder="Email*" aria-label="email">
                                     </div>
                                 </div>
                                 <div class="col-lg-12 col-md-12">
                                     <div class="form-group">
-                                        <input type="tel" name="phone_number" id="phone_number" required class="form-control" placeholder="Phone Number*" aria-label="phone_number">
+                                        <input type="tel" name="Number" id="phone_number" required class="form-control" placeholder="Phone Number*" aria-label="phone_number">
                                     </div>
                                 </div>
                                 <div class="col-lg-12 col-md-12">
                                     <div class="form-group">
-                                        <input type="text" name="company" id="company" class="form-control" required="" placeholder="Company Name*" aria-label="company">
+                                        <input type="text" name="Company" id="company" class="form-control" required="" placeholder="Company Name*" aria-label="company">
                                     </div>
                                 </div>
                                 <input type="hidden" name="Source" id="source">
@@ -181,7 +181,7 @@
                                 <input type="hidden" name="Geo" id="geo">
                                 <div class="col-lg-12 col-md-12">
                                     <div class="form-group">
-                                        <input type="text" name="message" id="msg_subject" class="form-control" required placeholder="Your Message*" aria-label="message">
+                                        <input type="text" name="Message" id="msg_subject" class="form-control" required placeholder="Your Message*" aria-label="message">
                                     </div>
                                 </div>
                                 <div class="col-lg-12 col-md-12">
@@ -535,7 +535,7 @@
 
     function sendGET() {
 
-        httpGetAsync('https://enquiry.aqugen.com/enquiry', function(data) {
+        httpGetAsync('http://localhost:3000/form', function(data) {
             console.log(data);
             let form = document.getElementById('formarea');
             let message = document.getElementById('form-message');
