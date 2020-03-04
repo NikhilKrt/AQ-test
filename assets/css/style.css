@@ -2565,6 +2565,10 @@ Services Details Area CSS
   line-height: 1.5;
 }
 
+.services-details-desc .sub-list{
+  list-style-type: lower-alpha;
+}
+
 .services-details-overview .services-details-desc .features-text ul li{
   font-size: 14px;
   font-weight: 300;
