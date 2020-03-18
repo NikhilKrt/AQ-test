@@ -52,6 +52,28 @@
 </head>
 
 <body>
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+    window.fbAsyncInit = function() {
+        FB.init({
+            xfbml: true,
+            version: 'v5.0'
+        });
+    };
+
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <!-- Your customer chat code -->
+    <div class="fb-customerchat" attribution=install_email page_id="400456850136347" theme_color="#f68632">
+    </div>
     <!-- Google Tag Manager (noscript) -->
     <noscript>
         <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T9J98X9" height="0" width="0" style="display:none;visibility:hidden"></iframe>
@@ -898,7 +920,6 @@
                     </a>
                 </div>
             </div>
-
             <p class="partner-title">Entertainment</p>
             <div class="row align-items-center">
                 <div class="single-partner-item">
@@ -944,7 +965,6 @@
                     </a>
                 </div>
             </div>
-
             <p class="partner-title">Healthcare</p>
             <div class="row align-items-center">
                 <div class="single-partner-item">
@@ -989,9 +1009,7 @@
                         <img src="assets/img/logos/india/healthcare/richfeel.png" alt="image">
                     </a>
                 </div>
-                
             </div>
-
             <p class="partner-title">NGO</p>
             <div class="row align-items-center">
                 <div class="single-partner-item offset-sm-3 rummycentral">
@@ -1013,7 +1031,6 @@
                     </a>
                 </div>
             </div>
-
             <p class="partner-title">Real Estate</p>
             <div class="row align-items-center">
                 <div class="single-partner-item">
@@ -1022,80 +1039,79 @@
                         <img src="assets/img/logos/india/real_estate/abpl.png" alt="image">
                     </a>
                 </div>
-                 <div class="single-partner-item">
+                <div class="single-partner-item">
                     <a href="#">
                         <img src="assets/img/logos/india/real_estate/baytihomespng.png" alt="image">
                         <img src="assets/img/logos/india/real_estate/baytihomespng.png" alt="image">
                     </a>
                 </div>
-                 <div class="single-partner-item">
+                <div class="single-partner-item">
                     <a href="#">
                         <img src="assets/img/logos/india/real_estate/eaglehills.png" alt="image">
                         <img src="assets/img/logos/india/real_estate/eaglehills.png" alt="image">
                     </a>
                 </div>
-                 <div class="single-partner-item">
+                <div class="single-partner-item">
                     <a href="#">
                         <img src="assets/img/logos/india/real_estate/godrejemerald.png" alt="image">
                         <img src="assets/img/logos/india/real_estate/godrejemerald.png" alt="image">
                     </a>
                 </div>
-                 <div class="single-partner-item">
+                <div class="single-partner-item">
                     <a href="#">
                         <img src="assets/img/logos/india/real_estate/ifaproperties.png" alt="image">
                         <img src="assets/img/logos/india/real_estate/ifaproperties.png" alt="image">
                     </a>
                 </div>
-                 <div class="single-partner-item">
+                <div class="single-partner-item">
                     <a href="#">
                         <img src="assets/img/logos/india/real_estate/ivyestate.png" alt="image">
                         <img src="assets/img/logos/india/real_estate/ivyestate.png" alt="image">
                     </a>
                 </div>
-                 <div class="single-partner-item">
+                <div class="single-partner-item">
                     <a href="#">
                         <img src="assets/img/logos/india/real_estate/l&t.png" alt="image">
                         <img src="assets/img/logos/india/real_estate/l&t.png" alt="image">
                     </a>
                 </div>
-                 <div class="single-partner-item">
+                <div class="single-partner-item">
                     <a href="#">
                         <img src="assets/img/logos/india/real_estate/lodha.png" alt="image">
                         <img src="assets/img/logos/india/real_estate/lodha.png" alt="image">
                     </a>
                 </div>
-                 <div class="single-partner-item">
+                <div class="single-partner-item">
                     <a href="#">
                         <img src="assets/img/logos/india/real_estate/mahindrawindchime.png" alt="image">
                         <img src="assets/img/logos/india/real_estate/mahindrawindchime.png" alt="image">
                     </a>
                 </div>
-                 <div class="single-partner-item">
+                <div class="single-partner-item">
                     <a href="#">
                         <img src="assets/img/logos/india/real_estate/puravankara.png" alt="image">
                         <img src="assets/img/logos/india/real_estate/puravankara.png" alt="image">
                     </a>
                 </div>
-                 <div class="single-partner-item offset-sm-3 rummycentral">
+                <div class="single-partner-item offset-sm-3 rummycentral">
                     <a href="#">
                         <img src="assets/img/logos/india/real_estate/selectproperty.png" alt="image">
                         <img src="assets/img/logos/india/real_estate/selectproperty.png" alt="image">
                     </a>
                 </div>
-                 <div class="single-partner-item">
+                <div class="single-partner-item">
                     <a href="#">
                         <img src="assets/img/logos/india/real_estate/squareyards.png" alt="image">
                         <img src="assets/img/logos/india/real_estate/squareyards.png" alt="image">
                     </a>
                 </div>
-                 <div class="single-partner-item">
+                <div class="single-partner-item">
                     <a href="#">
                         <img src="assets/img/logos/india/real_estate/yallacompare.png" alt="image">
                         <img src="assets/img/logos/india/real_estate/yallacompare.png" alt="image">
                     </a>
                 </div>
             </div>
-
             <p class="partner-title">Travel</p>
             <div class="row align-items-center">
                 <div class="single-partner-item">
@@ -1116,21 +1132,18 @@
                         <img src="assets/img/logos/india/travel/goomo.png" alt="image">
                     </a>
                 </div>
-
                 <div class="single-partner-item">
                     <a href="#">
                         <img src="assets/img/logos/india/travel/ontega.png" alt="image">
                         <img src="assets/img/logos/india/travel/ontega.png" alt="image">
                     </a>
                 </div>
-
                 <div class="single-partner-item">
                     <a href="#">
                         <img src="assets/img/logos/india/travel/sterling.png" alt="image">
                         <img src="assets/img/logos/india/travel/sterling.png" alt="image">
                     </a>
                 </div>
-
                 <div class="single-partner-item offset-sm-5 travelspice">
                     <a href="#">
                         <img src="assets/img/logos/india/travel/travelspice.png" alt="image">
@@ -1138,8 +1151,7 @@
                     </a>
                 </div>
             </div>
-
-             <p class="partner-title">360</p>
+            <p class="partner-title">360</p>
             <div class="row align-items-center">
                 <div class="single-partner-item offset-sm-1 souq">
                     <a href="#">
@@ -1147,30 +1159,25 @@
                         <img src="assets/img/logos/india/360/mad.png" alt="image">
                     </a>
                 </div>
-
                 <div class="single-partner-item">
                     <a href="#">
                         <img src="assets/img/logos/india/360/moonquik.png" alt="image">
                         <img src="assets/img/logos/india/360/moonquik.png" alt="image">
                     </a>
                 </div>
-
                 <div class="single-partner-item">
                     <a href="#">
                         <img src="assets/img/logos/india/360/mstreet.png" alt="image">
                         <img src="assets/img/logos/india/360/mstreet.png" alt="image">
                     </a>
                 </div>
-
                 <div class="single-partner-item">
                     <a href="#">
                         <img src="assets/img/logos/india/360/pearson.png" alt="image">
                         <img src="assets/img/logos/india/360/pearson.png" alt="image">
                     </a>
                 </div>
-                
             </div>
-
             <p class="partner-title">Others</p>
             <div class="row align-items-center">
                 <div class="single-partner-item offset-sm-4 volvo">
@@ -1185,9 +1192,7 @@
                         <img src="assets/img/logos/india/others/drfixit.png" alt="image">
                     </a>
                 </div>
-
             </div>
-
         </div>
         <div class="shape-img2"><img src="assets/img/shape/2.svg" alt="image"></div>
         <div class="shape-img3"><img src="assets/img/shape/3.svg" alt="image"></div>
@@ -1251,11 +1256,9 @@
         </div>
     </section>
     <!-- End Footer Area -->
-
     <div class="enquire-now">
-         <a href="enquiry.html">Enquire <span>Now</span></a>
+        <a href="enquiry.html">Enquire <span>Now</span></a>
     </div>
-    
     <div class="go-top"><i class="fas fa-chevron-up"></i></div>
     <!-- jQuery Min JS -->
     <script src="assets/js/jquery.min.js"></script>
