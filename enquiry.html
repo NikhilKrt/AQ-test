@@ -30,7 +30,7 @@
     <link href="https://fonts.googleapis.com/css?family=Overpass:100,200,300,400,500,600,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
     <title>AquGen</title>
-    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+    <link rel="icon" type="image/png" href="assets/img/favicon2.png">
     <!-- Google Tag Manager -->
     <script>
         (function(w, d, s, l, i) {
@@ -151,7 +151,7 @@
                 </div>
                 <div class="col-lg-5 col-md-6 offset-lg-1" id="formarea">
                     <div class="contact-form enquiry-form">
-                        <form method="post" action="http://localhost:3000/form">
+                        <form onsubmit="sendGET(); return false;">
                             <div class="title">
                                 <p class="form-text">Get Started</p>
                             </div>
@@ -535,7 +535,7 @@
 
     function sendGET() {
 
-        httpGetAsync('http://localhost:3000/form', function(data) {
+        httpGetAsync('https://enquiry.aqugen.com/enquiry', function(data) {
             console.log(data);
             let form = document.getElementById('formarea');
             let message = document.getElementById('form-message');

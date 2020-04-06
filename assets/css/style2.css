@@ -61,9 +61,7 @@ button {
 }
 
 .contact-area .overlay {
-    <<<<<<< HEAD=======
-    /*visibility: hidden;*/
-    >>>>>>>9d54cc11ba4dd8ff4c33c4ecd66ecba1218b7db4 position: fixed;
+    position: fixed;
     top: 0;
     left: 0;
     background: rgba(0, 0, 0, 0.4);
@@ -75,9 +73,6 @@ button {
 
 .contact-area .overlay .popupText {
     position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     background: white;
     color: black;
     max-width: 500px;
