@@ -2583,6 +2583,14 @@
     .contact-area .section-title {
         padding-bottom: 109px;
     }
+
+    .services-details-overview .services-details-desc.faqs {
+        padding-top: 100px;
+    }
+
+    .services-details-overview .services-details-desc.faqs h3{
+        font-size: 35px;
+    }
 }
 
 /*# sourceMappingURL=responsive.css.map */

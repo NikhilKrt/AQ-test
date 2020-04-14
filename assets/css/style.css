@@ -2563,6 +2563,11 @@ Services Details Area CSS
     padding-left: 25px;
 }
 
+.services-details-overview .services-details-desc.faqs{
+    flex: 100%;
+    max-width: 100%;
+}
+
 .services-details-overview .services-details-desc .modal-body {
     padding: 10px 30px 30px;
 }
@@ -2669,6 +2674,10 @@ Services Details Area CSS
     background: #fa7070;
 }
 
+.services-details-overview .services-details-desc .services-details-accordion .accordion .accordion-item:nth-child(2) .accordion-title i{
+    background: #838383;
+}
+
 .services-details-overview .services-details-desc .services-details-accordion .accordion .accordion-title {
     padding: 15px 20px 10px 51px;
     color: #212529;
@@ -2687,7 +2696,7 @@ Services Details Area CSS
     width: 40px;
     text-align: center;
     height: 100%;
-    background: #0000ff;
+    background: #f68632;
     color: #ffffff;
 }
 
