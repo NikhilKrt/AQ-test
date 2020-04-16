@@ -2379,7 +2379,6 @@ Services Area CSS
     -webkit-transition: 0.5s;
     transition: 0.5s;
     z-index: 1;
-    cursor: pointer;
     display: grid;
     grid-template-rows: auto auto auto;
 }
