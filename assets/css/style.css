@@ -3982,6 +3982,8 @@ Feedback Area CSS
     margin-right: 15px;
     margin-left: 15px;
     margin-bottom: 30px;
+    display: grid;
+    grid-template-rows: 3fr 1fr;
 }
 
 .feedback-slides.owl-theme .owl-nav.disabled+.owl-dots {
