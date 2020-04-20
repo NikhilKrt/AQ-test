@@ -74,7 +74,7 @@ a:hover {
 }
 
 p {
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 300;
     line-height: 1.8;
     color: #737b9a;
@@ -1274,6 +1274,10 @@ Main Banner Area CSS
 }
 
 .banner-content .bold {
+    font-weight: bold;
+}
+
+.bold{
     font-weight: bold;
 }
 
@@ -2567,6 +2571,15 @@ Services Details Area CSS
     max-width: 100%;
 }
 
+.faqs-sublist{
+    list-style-type: decimal;
+}
+
+.faqs-sublist li{
+    color: #737b9a;
+    font-size: 15px;
+}
+
 .services-details-overview .services-details-desc .modal-body {
     padding: 10px 30px 30px;
 }
@@ -2669,11 +2682,10 @@ Services Details Area CSS
 .services-details-overview .services-details-desc .services-details-accordion .accordion .accordion-item:nth-child(2) .accordion-title i,
 .services-details-overview .services-details-desc .services-details-accordion .accordion .accordion-item:nth-child(4) .accordion-title i,
 .services-details-overview .services-details-desc .services-details-accordion .accordion .accordion-item:nth-child(6) .accordion-title i,
-.services-details-overview .services-details-desc .services-details-accordion .accordion .accordion-item:nth-child(8) .accordion-title i {
-    background: #fa7070;
-}
-
-.services-details-overview .services-details-desc .services-details-accordion .accordion .accordion-item:nth-child(2) .accordion-title i{
+.services-details-overview .services-details-desc .services-details-accordion .accordion .accordion-item:nth-child(8) .accordion-title i,
+.services-details-overview .services-details-desc .services-details-accordion .accordion .accordion-item:nth-child(10) .accordion-title i ,
+.services-details-overview .services-details-desc .services-details-accordion .accordion .accordion-item:nth-child(12) .accordion-title i,
+.services-details-overview .services-details-desc .services-details-accordion .accordion .accordion-item:nth-child(14) .accordion-title i   {
     background: #838383;
 }
 

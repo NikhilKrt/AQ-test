@@ -2576,8 +2576,10 @@
     }
 
     .single-services-box {
-        grid-template-rows: auto 1fr 1fr;
+        /*grid-template-rows: auto 1fr 1fr;*/
         /*grid-template-rows: auto 2fr 3fr;*/
+        height: 400px;
+        grid-template-rows: auto auto 1fr;
     }
 
     .contact-area .section-title {
@@ -2588,7 +2590,7 @@
         padding-top: 100px;
     }
 
-    .services-details-overview .services-details-desc.faqs h3{
+    .services-details-overview .services-details-desc.faqs h3 {
         font-size: 35px;
     }
 }
