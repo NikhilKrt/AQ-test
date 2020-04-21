@@ -2566,6 +2566,16 @@ Services Details Area CSS
     padding-left: 25px;
 }
 
+.services-details-overview .services-details-desc p{
+    margin-bottom: 5px;
+}
+
+.services-details-overview .services-details-desc .features-text span{
+    color: #737b9a;
+    font-size: 15px;
+    font-weight: 300;
+}
+
 .services-details-overview .services-details-desc.faqs{
     flex: 100%;
     max-width: 100%;
@@ -2628,7 +2638,7 @@ Services Details Area CSS
 }
 
 .services-details-overview .services-details-desc .features-text {
-    margin-top: 25px;
+    margin-top: 10px;
 }
 
 .services-details-overview .services-details-desc .features-text p {
@@ -2651,10 +2661,12 @@ Services Details Area CSS
     font-weight: 600;
 }
 
-.services-details-overview .services-details-desc .features-text h4 i {
+.services-details-overview .services-details-desc .features-text h6 i {
     font-size: 16px;
     margin-right: 4px;
-    color: #0000ff;
+    color: #F68632;
+    padding-right: 3px;
+    font-weight: 700;
 }
 
 .services-details-overview .services-details-desc .services-details-accordion {
