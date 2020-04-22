@@ -2566,6 +2566,14 @@ Services Details Area CSS
     padding-left: 25px;
 }
 
+.services-footer{
+    padding-left: 25px;
+}
+
+.service-subheading{
+    padding-top: 20px;
+}
+
 .services-details-overview .services-details-desc p{
     margin-bottom: 5px;
 }
