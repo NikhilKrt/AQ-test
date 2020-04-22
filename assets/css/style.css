@@ -2574,6 +2574,10 @@ Services Details Area CSS
     padding-top: 20px;
 }
 
+.payperclick-img{
+    width: 470px;
+}
+
 .services-details-overview .services-details-desc p{
     margin-bottom: 5px;
 }
