@@ -2566,6 +2566,14 @@ Services Details Area CSS
     padding-left: 25px;
 }
 
+.services-details-overview .services-details-desc.faqs .faqs-title{
+    padding-top: 50px;
+}
+
+.ppc-desc{
+    padding-top: 45px;
+}
+
 .services-footer{
     padding-left: 25px;
 }
@@ -2575,7 +2583,7 @@ Services Details Area CSS
 }
 
 .payperclick-img{
-    width: 470px;
+    width: 500px;
 }
 
 .services-details-overview .services-details-desc p{
