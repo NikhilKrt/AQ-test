@@ -2581,6 +2581,7 @@ Services Details Area CSS
 .service-subheading{
     padding-top: 20px;
     color: #f68632;
+    font-weight: bold;
 }
 
 .payperclick-img{
