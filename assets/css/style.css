@@ -2387,6 +2387,18 @@ Services Area CSS
     grid-template-rows: auto auto auto;
 }
 
+.single-services-box p{
+    text-align: justify;
+}
+
+.services-details-area a{
+    color: blue;
+}
+
+.services-details-area a:hover{
+    color: #f68632;
+}
+
 .single-services-box .icon {
     width: 75px;
     height: 75px;
