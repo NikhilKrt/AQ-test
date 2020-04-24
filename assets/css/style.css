@@ -2553,6 +2553,12 @@ Services Details Area CSS
     margin-bottom: 60px;
 }
 
+.
+
+.services-details-overview p{
+    text-align: justify;
+}
+
 .services-details-overview:last-child {
     margin-bottom: 0;
 }
@@ -2578,6 +2584,10 @@ Services Details Area CSS
     padding-left: 25px;
 }
 
+.services-footer p{
+    text-align: justify;
+}
+
 .service-subheading{
     padding-top: 20px;
     color: #f68632;
@@ -2590,6 +2600,7 @@ Services Details Area CSS
 
 .services-details-overview .services-details-desc p{
     margin-bottom: 5px;
+    text-align: justify;
 }
 
 .services-details-overview .services-details-desc .features-text span{
