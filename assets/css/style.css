@@ -2399,6 +2399,16 @@ Services Area CSS
     color: #FF512F;
 }
 
+.services-details-area.job-roles .default-btn:hover{
+    color: #fff;
+}
+
+.services-details-area.job-roles .default-btn{
+    color: #fff;
+}
+
+
+
 .single-services-box .icon {
     width: 75px;
     height: 75px;
