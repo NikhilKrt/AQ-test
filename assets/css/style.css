@@ -2602,6 +2602,10 @@ Services Details Area CSS
     padding-top: 45px;
 }
 
+.main-services-desc{
+    padding: 50px 0;
+}
+
 .services-footer{
     padding-left: 25px;
 }
