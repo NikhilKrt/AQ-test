@@ -336,9 +336,7 @@
         var name = document.getElementById('name').value;
         var email = document.getElementById('email').value;
         var phone = document.getElementById('phone_number').value;
-        // var city = document.getElementById('city').value;
         var msg_subject = document.getElementById('msg_subject').value;
-        // var requirements = document.getElementById('requirements').value;
         var message = document.getElementById('message').value;
         var source = document.getElementById('source').value;
         var geo = document.getElementById('geo').value;
@@ -362,7 +360,6 @@
             temp['Phone'] = phone
         }
         if (msg_subject) {
-            // url = url + 'Company=' + company + '&';
             formdata.append('msg_subject', msg_subject);
             temp['msg_subject'] = msg_subject;
         }
@@ -406,7 +403,7 @@
 
     function sendGET() {
 
-        httpGetAsync('', function(data) {
+        httpGetAsync('https://www.aqugen.com/contact.html', function(data) {
             console.log(data);
             let form = document.getElementById('formarea');
             let message = document.getElementById('form-message');
