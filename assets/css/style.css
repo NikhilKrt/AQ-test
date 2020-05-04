@@ -52,6 +52,10 @@ button {
     padding-top: 195px;
 }
 
+.about-area p,.why-choose-area p{
+    text-align: justify;
+}
+
 .partner-area.ptb-100 {
     padding-top: 40px;
 }
@@ -2391,11 +2395,11 @@ Services Area CSS
     text-align: justify;
 }
 
-.services-details-area a{
+.services-details-area a,.overview-area a{
     color: #f68632;
 }
 
-.services-details-area a:hover{
+.services-details-area a:hover,.overview-area a:hover{
     color: #FF512F;
 }
 
@@ -2893,6 +2897,10 @@ Overview Area CSS
 
 .overview-box .overview-content .content {
     padding-right: 30px;
+}
+
+.overview-content .about-us p{
+    text-align: justify;
 }
 
 .overview-box .overview-content .content .sub-title {
@@ -7430,6 +7438,47 @@ Go Top CSS
     color: #737b9a;
     font-size: 15px;
     font-weight: 500;
+}
+
+/*form message*/
+.contact-area .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    z-index: 11;
+}
+
+.contact-area .overlay .popupText {
+    position: relative;
+    background: white;
+    max-width: 500px;
+    width: 100%;
+    padding: 40px;
+    border-radius: 5px;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+}
+
+.contact-area .overlay .popupText p{
+    font-size: 18px;
+    margin: 0;
+    color: #333;
+}
+
+.contact-area .close {
+    justify-self: end;
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 8px;
 }
 
 /*# sourceMappingURL=style.css.map
