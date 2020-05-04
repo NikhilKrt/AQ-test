@@ -2220,7 +2220,7 @@ About Area CSS
 .about-content h2 {
     margin-bottom: 10px;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .about-content .features-list {
@@ -2842,7 +2842,7 @@ Why Choose Us Area CSS
 .why-choose-content h2 {
     margin-bottom: 10px;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .why-choose-content .features-text {
@@ -2856,10 +2856,17 @@ Why Choose Us Area CSS
 }
 
 .why-choose-content .features-text h4 i {
+    font-size: 18px;
+    margin-right: 10px;
+    color: #f68632;
+    font-weight: bold;
+}
+
+/*.why-choose-content .features-text h4 i {
     font-size: 16px;
     margin-right: 4px;
     color: #f68632;
-}
+}*/
 
 .why-choose-image {
     text-align: center;
