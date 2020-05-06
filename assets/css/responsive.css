@@ -2578,7 +2578,7 @@
     .single-services-box {
         /*grid-template-rows: auto 1fr 1fr;*/
         /*grid-template-rows: auto 2fr 3fr;*/
-        height: 370px;
+        height: 400px;
         grid-template-rows: auto auto 1fr;
     }
 
