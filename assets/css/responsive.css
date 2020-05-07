@@ -2582,6 +2582,10 @@
         grid-template-rows: auto auto 1fr;
     }
 
+    .featured-services-area .single-featured-box {
+        height: 450px;
+    }
+
     .contact-area .section-title {
         padding-bottom: 109px;
     }
