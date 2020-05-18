@@ -173,6 +173,10 @@ p:last-child {
     margin-bottom: 0;
 }
 
+.contact-area .section-title h2{
+    font-size: 35px;
+}
+
 .section-title p {
     margin-top: 12px;
     margin-bottom: 0;
