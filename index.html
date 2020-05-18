@@ -10,11 +10,18 @@
     <!-- Bootstrap Min CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!-- Animate Min CSS -->
-    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="preload" href="assets/css/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="assets/css/animate.min.css">
+    </noscript>
     <!-- FlatIcon CSS -->
-    <link rel="stylesheet" href="assets/css/flaticon.css">
+    <link rel="preload" href="assets/css/flaticon.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="assets/css/flaticon.css"></noscript>
     <!-- Odometer Min CSS -->
-    <link rel="stylesheet" href="assets/css/odometer.min.css">
+    <link rel="preload" href="assets/css/odometer.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="assets/css/odometer.min.css"></noscript>
     <!-- MeanMenu CSS -->
     <link rel="stylesheet" href="assets/css/meanmenu.css">
     <!-- Magnific Popup Min CSS -->
@@ -73,14 +80,13 @@
         fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
     </script>
-     <!-- whatsapp button -->
+    <!-- whatsapp button -->
     <a href="https://wa.me/919899661709" target="_blank" class="whatsapp">
         <img src="assets/img/whatsapp_Icon.png">
     </a>
     <!-- Your customer chat code -->
     <div class="fb-customerchat" attribution=install_email page_id="400456850136347" theme_color="#0085ff">
     </div>
-    
     <!-- Google Tag Manager (noscript) -->
     <noscript>
         <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T9J98X9" height="0" width="0" style="display:none;visibility:hidden"></iframe>
@@ -231,6 +237,11 @@
                 <div class="overview-image">
                     <div class="image">
                         <img src="assets/img/about.png" alt="image">
+                        <!-- <picture>
+                            <source type="image/webp" srcset="assets/img/about.webp">
+                            <source type="image/jpeg" srcset="assets/img/about.jpg">
+                            <img src="assets/img/about.png">
+                        </picture> -->
                     </div>
                 </div>
                 <div class="overview-content">
@@ -312,7 +323,6 @@
                         <a href="data-analytics.html" class="default-btn">Read More <span></span></a>
                     </div>
                 </div>
-               
                 <div class="col-lg-4 col-sm-6 col-md-6">
                     <div class="single-featured-box">
                         <div class="icon color-1ac0c6">
