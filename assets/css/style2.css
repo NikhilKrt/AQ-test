@@ -7071,6 +7071,14 @@ Go Top CSS
     background-color: #e16e19;
 }
 
+.whatsapp {
+    cursor: pointer;
+    position: fixed;
+    bottom: 15%;
+    z-index: 6;
+    right: 18px;
+}
+
 /*.contact-area .plane{
     animation: plane 1s ease-in;
 }

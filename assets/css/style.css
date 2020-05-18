@@ -52,7 +52,8 @@ button {
     padding-top: 195px;
 }
 
-.about-area p,.why-choose-area p{
+.about-area p,
+.why-choose-area p {
     text-align: justify;
 }
 
@@ -1281,7 +1282,7 @@ Main Banner Area CSS
     font-weight: bold;
 }
 
-.bold{
+.bold {
     font-weight: bold;
 }
 
@@ -2132,7 +2133,7 @@ Featured Services Area CSS
     background-color: #ffffff;
 }
 
-.single-featured-box:hover::after{
+.single-featured-box:hover::after {
     content: "";
     position: absolute;
     width: 100%;
@@ -2401,23 +2402,25 @@ Services Area CSS
     grid-template-rows: auto auto auto;
 }
 
-.single-services-box p{
+.single-services-box p {
     text-align: justify;
 }
 
-.services-details-area a,.overview-area a{
+.services-details-area a,
+.overview-area a {
     color: #f68632;
 }
 
-.services-details-area a:hover,.overview-area a:hover{
+.services-details-area a:hover,
+.overview-area a:hover {
     color: #FF512F;
 }
 
-.services-details-area.job-roles .default-btn:hover{
+.services-details-area.job-roles .default-btn:hover {
     color: #fff;
 }
 
-.services-details-area.job-roles .default-btn{
+.services-details-area.job-roles .default-btn {
     color: #fff;
 }
 
@@ -2534,7 +2537,7 @@ Services Area CSS
     transform: translateY(-10px);
 }
 
-.single-services-box:hover::after{
+.single-services-box:hover::after {
     content: "";
     position: absolute;
     width: 100%;
@@ -2597,9 +2600,7 @@ Services Details Area CSS
     margin-bottom: 60px;
 }
 
-.
-
-.services-details-overview p{
+. .services-details-overview p {
     text-align: justify;
 }
 
@@ -2616,57 +2617,57 @@ Services Details Area CSS
     padding-left: 25px;
 }
 
-.services-details-overview .services-details-desc.faqs .faqs-title{
+.services-details-overview .services-details-desc.faqs .faqs-title {
     padding-top: 50px;
 }
 
-.sub-services-desc{
+.sub-services-desc {
     padding-top: 80px;
 }
 
-.main-services-desc{
+.main-services-desc {
     padding: 50px 0;
 }
 
-.services-footer{
+.services-footer {
     padding-left: 25px;
 }
 
-.services-footer p{
+.services-footer p {
     text-align: justify;
 }
 
-.service-subheading{
+.service-subheading {
     padding-top: 20px;
     color: #f68632;
     font-weight: bold;
 }
 
-.payperclick-img{
+.payperclick-img {
     width: 500px;
 }
 
-.services-details-overview .services-details-desc p{
+.services-details-overview .services-details-desc p {
     margin-bottom: 5px;
     text-align: justify;
 }
 
-.services-details-overview .services-details-desc .features-text span{
+.services-details-overview .services-details-desc .features-text span {
     color: #737b9a;
     font-size: 15px;
     font-weight: 300;
 }
 
-.services-details-overview .services-details-desc.faqs{
+.services-details-overview .services-details-desc.faqs {
     flex: 100%;
     max-width: 100%;
 }
 
-.faqs-sublist{
+.faqs-sublist {
     list-style-type: decimal;
 }
 
-.faqs-sublist li{
+.faqs-sublist li {
     color: #737b9a;
     font-size: 15px;
 }
@@ -2776,9 +2777,9 @@ Services Details Area CSS
 .services-details-overview .services-details-desc .services-details-accordion .accordion .accordion-item:nth-child(4) .accordion-title i,
 .services-details-overview .services-details-desc .services-details-accordion .accordion .accordion-item:nth-child(6) .accordion-title i,
 .services-details-overview .services-details-desc .services-details-accordion .accordion .accordion-item:nth-child(8) .accordion-title i,
-.services-details-overview .services-details-desc .services-details-accordion .accordion .accordion-item:nth-child(10) .accordion-title i ,
+.services-details-overview .services-details-desc .services-details-accordion .accordion .accordion-item:nth-child(10) .accordion-title i,
 .services-details-overview .services-details-desc .services-details-accordion .accordion .accordion-item:nth-child(12) .accordion-title i,
-.services-details-overview .services-details-desc .services-details-accordion .accordion .accordion-item:nth-child(14) .accordion-title i   {
+.services-details-overview .services-details-desc .services-details-accordion .accordion .accordion-item:nth-child(14) .accordion-title i {
     background: #838383;
 }
 
@@ -2924,7 +2925,7 @@ Overview Area CSS
     padding-right: 30px;
 }
 
-.overview-content .about-us p{
+.overview-content .about-us p {
     text-align: justify;
 }
 
@@ -7489,7 +7490,7 @@ Go Top CSS
     text-align: center;
 }
 
-.contact-area .overlay .popupText p{
+.contact-area .overlay .popupText p {
     font-size: 18px;
     margin: 0;
     color: #333;
@@ -7505,5 +7506,14 @@ Go Top CSS
     top: 5px;
     right: 8px;
 }
+
+.whatsapp {
+    cursor: pointer;
+    position: fixed;
+    bottom: 15%;
+    z-index: 6;
+    right: 18px;
+}
+
 
 /*# sourceMappingURL=style.css.map
