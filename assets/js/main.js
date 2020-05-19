@@ -1,4 +1,4 @@
-/* Invalid character(s) '(function($){
+(function($){
     "use strict";
     jQuery(document).on('ready', function () {
 
@@ -346,4 +346,4 @@
     $(window).on('load', function() {
         $('.preloader').addClass('preloader-deactivate');
     });
-}(jQuery));' at 1:0. Ignoring. */
+}(jQuery));
