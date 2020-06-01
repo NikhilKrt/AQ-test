@@ -7358,7 +7358,7 @@ blockquote::after {
     cursor: pointer;
     position: fixed;
     bottom: 3%;
-    z-index: 2147483650;
+    z-index: 9;
     right: 25px;
 }
 
