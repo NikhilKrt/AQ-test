@@ -7362,6 +7362,6 @@ blockquote::after {
     right: 25px;
 }
 
-.fb-customerchat .fb_dialog.fb_dialog_advanced {
-    bottom: 85pt;
+.fb_dialog.fb_dialog_advanced {
+    bottom: 90px !important;
 }
