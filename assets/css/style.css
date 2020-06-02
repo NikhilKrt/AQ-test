@@ -7363,5 +7363,9 @@ blockquote::after {
 }
 
 .fb_dialog.fb_dialog_advanced {
-    bottom: 90px !important
+    bottom: 90px !important;
+}
+
+._j68{
+	bottom: 35px !important;
 }
