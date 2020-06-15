@@ -54,22 +54,22 @@
 <body>
     <!-- Load Facebook SDK for JavaScript -->
     <div id="fb-root"></div>
-    <script>
-    window.fbAsyncInit = function() {
-        FB.init({
-            xfbml: true,
-            version: 'v5.0'
-        });
-    };
+    <script defer>
+        window.fbAsyncInit = function() {
+            FB.init({
+                xfbml: true,
+                version: 'v5.0'
+            });
+        };
 
-    (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s);
-        js.id = id;
-        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
     </script>
      <!-- whatsapp button -->
     <a href="https://wa.me/919899661709" target="_blank" class="whatsapp">
@@ -323,28 +323,28 @@
     </div>
     <div class="go-top"><i class="fas fa-chevron-up"></i></div>
     <!-- jQuery Min JS -->
-    <script src="assets/js/jquery.min.js"></script>
+    <script defer src="assets/js/jquery.min.js"></script>
     <!-- Popper Min JS -->
-    <script src="assets/js/popper.min.js"></script>
+    <script defer src="assets/js/popper.min.js"></script>
     <!-- Bootstrap Min JS -->
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script defer src="assets/js/bootstrap.min.js"></script>
     <!-- MeanMenu JS  -->
-    <script src="assets/js/jquery.meanmenu.js"></script>
+    <script defer src="assets/js/jquery.meanmenu.js"></script>
     <!-- Appear Min JS -->
-    <script src="assets/js/jquery.appear.min.js"></script>
+    <script defer src="assets/js/jquery.appear.min.js"></script>
     <!-- Odometer Min JS -->
-    <script src="assets/js/odometer.min.js"></script>
+    <script defer src="assets/js/odometer.min.js"></script>
     <!-- Owl Carousel Min JS -->
-    <script src="assets/js/owl.carousel.min.js"></script>
+    <script defer src="assets/js/owl.carousel.min.js"></script>
     <!-- Magnific Popup Min JS -->
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script defer src="assets/js/jquery.magnific-popup.min.js"></script>
     <!-- Nice Select Min JS -->
-    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script defer src="assets/js/jquery.nice-select.min.js"></script>
     <!-- WOW Min JS -->
-    <script src="assets/js/wow.min.js"></script>
+    <script defer src="assets/js/wow.min.js"></script>
     <!-- Main JS -->
-    <script src="assets/js/main.js"></script>
-    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script defer src="assets/js/main.js"></script>
+    <script defer src="https://apis.google.com/js/platform.js" async defer></script>
 </body>
 
 </html>
